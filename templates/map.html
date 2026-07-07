@@ -1,0 +1,3566 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_366c6e4ec6a3a95381c426a4e5517f82 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_366c6e4ec6a3a95381c426a4e5517f82" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_366c6e4ec6a3a95381c426a4e5517f82 = L.map(
+                "map_366c6e4ec6a3a95381c426a4e5517f82",
+                {
+                    center: [20.59, 78.96],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6b36b0ac589dab025fc90770bf94de32 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6b36b0ac589dab025fc90770bf94de32.addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+            var circle_marker_cd92060688c98293ce5909a3b59576c1 = L.circleMarker(
+                [17.458105, 78.4998779],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_f98f882b4dd1e78430864d56dc7f08c2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_794c5efeb3b8353ec0cb421bab0dd384 = $(`<div id="html_794c5efeb3b8353ec0cb421bab0dd384" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>airtel</b><br>                 📶 Network: <b>Unknown</b><br>                 🌍 State: <b>Telangana</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_f98f882b4dd1e78430864d56dc7f08c2.setContent(html_794c5efeb3b8353ec0cb421bab0dd384);
+            
+        
+
+        circle_marker_cd92060688c98293ce5909a3b59576c1.bindPopup(popup_f98f882b4dd1e78430864d56dc7f08c2)
+        ;
+
+        
+    
+    
+            circle_marker_cd92060688c98293ce5909a3b59576c1.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a1cd7365acb4d033aa2be98f1ad201e1 = L.circleMarker(
+                [25.4302957, 78.55330699],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_0a4172989aeac9330d229f957fe39d64 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_11ea07c5dac43949ebe4f3d2f9924d4d = $(`<div id="html_11ea07c5dac43949ebe4f3d2f9924d4d" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>vi</b><br>                 📶 Network: <b>3G</b><br>                 🌍 State: <b>Uttar Pradesh</b><br>                 ⭐ Rating: <b>3</b>               </div></div>`)[0];
+                popup_0a4172989aeac9330d229f957fe39d64.setContent(html_11ea07c5dac43949ebe4f3d2f9924d4d);
+            
+        
+
+        circle_marker_a1cd7365acb4d033aa2be98f1ad201e1.bindPopup(popup_0a4172989aeac9330d229f957fe39d64)
+        ;
+
+        
+    
+    
+            circle_marker_a1cd7365acb4d033aa2be98f1ad201e1.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8530732c1c0fab7c9cb409e5e508ced9 = L.circleMarker(
+                [12.9056256, 77.59401796],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_cabe4222c523866683e46635d0e5c384 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_94cc9c2a20da1769d520a8f847972c3c = $(`<div id="html_94cc9c2a20da1769d520a8f847972c3c" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Karnataka</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_cabe4222c523866683e46635d0e5c384.setContent(html_94cc9c2a20da1769d520a8f847972c3c);
+            
+        
+
+        circle_marker_8530732c1c0fab7c9cb409e5e508ced9.bindPopup(popup_cabe4222c523866683e46635d0e5c384)
+        ;
+
+        
+    
+    
+            circle_marker_8530732c1c0fab7c9cb409e5e508ced9.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ca748575113c2b545770315d6970427c = L.circleMarker(
+                [12.92287167, 77.63601333],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_16626378874c05172859e2e50508c8a4 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_30835f1798e2d5698fbb16f34d3e8952 = $(`<div id="html_30835f1798e2d5698fbb16f34d3e8952" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#e74c3c'>📵 Call Dropped</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Karnataka</b><br>                 ⭐ Rating: <b>1</b>               </div></div>`)[0];
+                popup_16626378874c05172859e2e50508c8a4.setContent(html_30835f1798e2d5698fbb16f34d3e8952);
+            
+        
+
+        circle_marker_ca748575113c2b545770315d6970427c.bindPopup(popup_16626378874c05172859e2e50508c8a4)
+        ;
+
+        
+    
+    
+            circle_marker_ca748575113c2b545770315d6970427c.bindTooltip(
+                `<div>
+                     📵 Call Dropped
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d790e2acfa081c831da76b8328ef3904 = L.circleMarker(
+                [24.73315836, 92.78796888],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_5c1d5637d8624e43ef1b5ddb20f2b1a4 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d15e8c29079c5bcf9d61d56f3854d963 = $(`<div id="html_d15e8c29079c5bcf9d61d56f3854d963" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>bsnl</b><br>                 📶 Network: <b>2G</b><br>                 🌍 State: <b>Assam</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_5c1d5637d8624e43ef1b5ddb20f2b1a4.setContent(html_d15e8c29079c5bcf9d61d56f3854d963);
+            
+        
+
+        circle_marker_d790e2acfa081c831da76b8328ef3904.bindPopup(popup_5c1d5637d8624e43ef1b5ddb20f2b1a4)
+        ;
+
+        
+    
+    
+            circle_marker_d790e2acfa081c831da76b8328ef3904.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8c2bfda17b8960dee122e1424ba2da7d = L.circleMarker(
+                [28.59588833, 77.32309833],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_2b308ed8f8cb4ea0dbf366e140339f81 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6bf668c0a901ad8c11ef6ccffcd75ec3 = $(`<div id="html_6bf668c0a901ad8c11ef6ccffcd75ec3" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Uttar Pradesh</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_2b308ed8f8cb4ea0dbf366e140339f81.setContent(html_6bf668c0a901ad8c11ef6ccffcd75ec3);
+            
+        
+
+        circle_marker_8c2bfda17b8960dee122e1424ba2da7d.bindPopup(popup_2b308ed8f8cb4ea0dbf366e140339f81)
+        ;
+
+        
+    
+    
+            circle_marker_8c2bfda17b8960dee122e1424ba2da7d.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_291e064eb0b57cfb98c534ec26c5edf7 = L.circleMarker(
+                [21.267741, 72.8483848],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_17187d5702573018773cf9181e8e5ac9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9bc21f84a4eb0210b17070f795cb420c = $(`<div id="html_9bc21f84a4eb0210b17070f795cb420c" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>vi</b><br>                 📶 Network: <b>Unknown</b><br>                 🌍 State: <b>Gujarat</b><br>                 ⭐ Rating: <b>2</b>               </div></div>`)[0];
+                popup_17187d5702573018773cf9181e8e5ac9.setContent(html_9bc21f84a4eb0210b17070f795cb420c);
+            
+        
+
+        circle_marker_291e064eb0b57cfb98c534ec26c5edf7.bindPopup(popup_17187d5702573018773cf9181e8e5ac9)
+        ;
+
+        
+    
+    
+            circle_marker_291e064eb0b57cfb98c534ec26c5edf7.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6ec57e3856db808eedd32a82c0da4622 = L.circleMarker(
+                [19.2422731, 72.859278],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_dfb5f231fcde72646c16d8172c5f0f9f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d046a1620ddeffd5a9a6519d792b5945 = $(`<div id="html_d046a1620ddeffd5a9a6519d792b5945" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Maharashtra</b><br>                 ⭐ Rating: <b>3</b>               </div></div>`)[0];
+                popup_dfb5f231fcde72646c16d8172c5f0f9f.setContent(html_d046a1620ddeffd5a9a6519d792b5945);
+            
+        
+
+        circle_marker_6ec57e3856db808eedd32a82c0da4622.bindPopup(popup_dfb5f231fcde72646c16d8172c5f0f9f)
+        ;
+
+        
+    
+    
+            circle_marker_6ec57e3856db808eedd32a82c0da4622.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_716175809879de06c269ce9d5b5e6135 = L.circleMarker(
+                [27.40338335, 75.45626661],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_f66e5a744ccb3f53f348a6fa2db10c1f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_fab4e083af41838822e6a5c942af92df = $(`<div id="html_fab4e083af41838822e6a5c942af92df" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>airtel</b><br>                 📶 Network: <b>3G</b><br>                 🌍 State: <b>Rajasthan</b><br>                 ⭐ Rating: <b>3</b>               </div></div>`)[0];
+                popup_f66e5a744ccb3f53f348a6fa2db10c1f.setContent(html_fab4e083af41838822e6a5c942af92df);
+            
+        
+
+        circle_marker_716175809879de06c269ce9d5b5e6135.bindPopup(popup_f66e5a744ccb3f53f348a6fa2db10c1f)
+        ;
+
+        
+    
+    
+            circle_marker_716175809879de06c269ce9d5b5e6135.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b558dec871d4259bdfa50e35a3fd3753 = L.circleMarker(
+                [14.680278, 77.6011952],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_6894c2d3554f30cb3d63a0f1433be968 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_0a98c6573cc5c50ba8919923fabbc355 = $(`<div id="html_0a98c6573cc5c50ba8919923fabbc355" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Andhra Pradesh</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_6894c2d3554f30cb3d63a0f1433be968.setContent(html_0a98c6573cc5c50ba8919923fabbc355);
+            
+        
+
+        circle_marker_b558dec871d4259bdfa50e35a3fd3753.bindPopup(popup_6894c2d3554f30cb3d63a0f1433be968)
+        ;
+
+        
+    
+    
+            circle_marker_b558dec871d4259bdfa50e35a3fd3753.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_509fb8512cecd676e12bf599031b1963 = L.circleMarker(
+                [23.050752, 72.5263491],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_1fbac98d0919f022aceab8c08dce47ac = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9606ada79222cc5295845c69852c286b = $(`<div id="html_9606ada79222cc5295845c69852c286b" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>airtel</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Gujarat</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_1fbac98d0919f022aceab8c08dce47ac.setContent(html_9606ada79222cc5295845c69852c286b);
+            
+        
+
+        circle_marker_509fb8512cecd676e12bf599031b1963.bindPopup(popup_1fbac98d0919f022aceab8c08dce47ac)
+        ;
+
+        
+    
+    
+            circle_marker_509fb8512cecd676e12bf599031b1963.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2f52091535ef457554c750cb7ace8a22 = L.circleMarker(
+                [11.46987333, 78.18347167],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_b434f7e59c33cc1f9f7ca055891aa6d3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_780653692e47271d2a13f5b9b8ef39ad = $(`<div id="html_780653692e47271d2a13f5b9b8ef39ad" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Tamil Nadu</b><br>                 ⭐ Rating: <b>3</b>               </div></div>`)[0];
+                popup_b434f7e59c33cc1f9f7ca055891aa6d3.setContent(html_780653692e47271d2a13f5b9b8ef39ad);
+            
+        
+
+        circle_marker_2f52091535ef457554c750cb7ace8a22.bindPopup(popup_b434f7e59c33cc1f9f7ca055891aa6d3)
+        ;
+
+        
+    
+    
+            circle_marker_2f52091535ef457554c750cb7ace8a22.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6208a667c8692941ea4cdd74cd1b396f = L.circleMarker(
+                [23.2681658, 77.46545022],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_ce7a7d6b001c52d63e62a5e87f7b0fcd = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_012df0163def5cd79c5e7ee8b390c80c = $(`<div id="html_012df0163def5cd79c5e7ee8b390c80c" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Madhya Pradesh</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_ce7a7d6b001c52d63e62a5e87f7b0fcd.setContent(html_012df0163def5cd79c5e7ee8b390c80c);
+            
+        
+
+        circle_marker_6208a667c8692941ea4cdd74cd1b396f.bindPopup(popup_ce7a7d6b001c52d63e62a5e87f7b0fcd)
+        ;
+
+        
+    
+    
+            circle_marker_6208a667c8692941ea4cdd74cd1b396f.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d4d9bc2d9bc1433ba36541386cb9448d = L.circleMarker(
+                [21.23715512, 72.90832445],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_fa53b8d9b2b41e33aeff97d7cd484d7b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7d8edd8dd8ccac0c1963eee3193d6705 = $(`<div id="html_7d8edd8dd8ccac0c1963eee3193d6705" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#e74c3c'>📵 Call Dropped</b><br>                 🏢 Operator: <b>vi</b><br>                 📶 Network: <b>2G</b><br>                 🌍 State: <b>Gujarat</b><br>                 ⭐ Rating: <b>2</b>               </div></div>`)[0];
+                popup_fa53b8d9b2b41e33aeff97d7cd484d7b.setContent(html_7d8edd8dd8ccac0c1963eee3193d6705);
+            
+        
+
+        circle_marker_d4d9bc2d9bc1433ba36541386cb9448d.bindPopup(popup_fa53b8d9b2b41e33aeff97d7cd484d7b)
+        ;
+
+        
+    
+    
+            circle_marker_d4d9bc2d9bc1433ba36541386cb9448d.bindTooltip(
+                `<div>
+                     📵 Call Dropped
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dc54118d63933ed009a730218fa981fc = L.circleMarker(
+                [13.048325, 80.2309441],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_b1837e00bda6ed4eb3253ad0be2e10a6 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2a9c811abf5df0bc991f9a7820b5f201 = $(`<div id="html_2a9c811abf5df0bc991f9a7820b5f201" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>bsnl</b><br>                 📶 Network: <b>3G</b><br>                 🌍 State: <b>Tamil Nadu</b><br>                 ⭐ Rating: <b>3</b>               </div></div>`)[0];
+                popup_b1837e00bda6ed4eb3253ad0be2e10a6.setContent(html_2a9c811abf5df0bc991f9a7820b5f201);
+            
+        
+
+        circle_marker_dc54118d63933ed009a730218fa981fc.bindPopup(popup_b1837e00bda6ed4eb3253ad0be2e10a6)
+        ;
+
+        
+    
+    
+            circle_marker_dc54118d63933ed009a730218fa981fc.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7e843683eeb3a11b71502888e8b08699 = L.circleMarker(
+                [12.922655, 77.63304333],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_a99d87b40e1167fe4ed64339468f21c9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5e362e310c6970d021192fb441951289 = $(`<div id="html_5e362e310c6970d021192fb441951289" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#e74c3c'>📵 Call Dropped</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Karnataka</b><br>                 ⭐ Rating: <b>1</b>               </div></div>`)[0];
+                popup_a99d87b40e1167fe4ed64339468f21c9.setContent(html_5e362e310c6970d021192fb441951289);
+            
+        
+
+        circle_marker_7e843683eeb3a11b71502888e8b08699.bindPopup(popup_a99d87b40e1167fe4ed64339468f21c9)
+        ;
+
+        
+    
+    
+            circle_marker_7e843683eeb3a11b71502888e8b08699.bindTooltip(
+                `<div>
+                     📵 Call Dropped
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5b02b813853bbe73fc9c6da9937ba154 = L.circleMarker(
+                [11.9305197, 76.9461294],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_71a653915e77fc25a742244f0ecfd5d1 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4f8e28333879943719853e0960991161 = $(`<div id="html_4f8e28333879943719853e0960991161" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>airtel</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Karnataka</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_71a653915e77fc25a742244f0ecfd5d1.setContent(html_4f8e28333879943719853e0960991161);
+            
+        
+
+        circle_marker_5b02b813853bbe73fc9c6da9937ba154.bindPopup(popup_71a653915e77fc25a742244f0ecfd5d1)
+        ;
+
+        
+    
+    
+            circle_marker_5b02b813853bbe73fc9c6da9937ba154.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ccf4e3ddc126ef0432b994a4d8a25502 = L.circleMarker(
+                [26.8439155, 80.9449751],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_6b424fa0b45957af2fceb4f73b99456d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_32eaa6ec43a770f1aee4898d72af2bfb = $(`<div id="html_32eaa6ec43a770f1aee4898d72af2bfb" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Uttar Pradesh</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_6b424fa0b45957af2fceb4f73b99456d.setContent(html_32eaa6ec43a770f1aee4898d72af2bfb);
+            
+        
+
+        circle_marker_ccf4e3ddc126ef0432b994a4d8a25502.bindPopup(popup_6b424fa0b45957af2fceb4f73b99456d)
+        ;
+
+        
+    
+    
+            circle_marker_ccf4e3ddc126ef0432b994a4d8a25502.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_640715b515df5066740c03037292b7a1 = L.circleMarker(
+                [12.9678432, 77.5327981],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_2f92ca4bcb618fbe44a670111ae959b0 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_eb4df2ff330378466ec63da4c17c144c = $(`<div id="html_eb4df2ff330378466ec63da4c17c144c" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Karnataka</b><br>                 ⭐ Rating: <b>2</b>               </div></div>`)[0];
+                popup_2f92ca4bcb618fbe44a670111ae959b0.setContent(html_eb4df2ff330378466ec63da4c17c144c);
+            
+        
+
+        circle_marker_640715b515df5066740c03037292b7a1.bindPopup(popup_2f92ca4bcb618fbe44a670111ae959b0)
+        ;
+
+        
+    
+    
+            circle_marker_640715b515df5066740c03037292b7a1.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b344f09bbc7b53848f156ced17e70561 = L.circleMarker(
+                [22.36557756, 69.84371666],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_f4c80a1c192b9e7ca489994544b9a07b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6d5386f050411c8058b9fe94f8c9057a = $(`<div id="html_6d5386f050411c8058b9fe94f8c9057a" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Gujarat</b><br>                 ⭐ Rating: <b>4</b>               </div></div>`)[0];
+                popup_f4c80a1c192b9e7ca489994544b9a07b.setContent(html_6d5386f050411c8058b9fe94f8c9057a);
+            
+        
+
+        circle_marker_b344f09bbc7b53848f156ced17e70561.bindPopup(popup_f4c80a1c192b9e7ca489994544b9a07b)
+        ;
+
+        
+    
+    
+            circle_marker_b344f09bbc7b53848f156ced17e70561.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4e517036d2ebd594309961e3f4d52ab1 = L.circleMarker(
+                [17.3291946, 78.5935848],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_2f96c473098f5df5cf4c3bc0c35d8bfc = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e99e19ca7fbb2ed3af3091126f67fc05 = $(`<div id="html_e99e19ca7fbb2ed3af3091126f67fc05" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>airtel</b><br>                 📶 Network: <b>Unknown</b><br>                 🌍 State: <b>Telangana</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_2f96c473098f5df5cf4c3bc0c35d8bfc.setContent(html_e99e19ca7fbb2ed3af3091126f67fc05);
+            
+        
+
+        circle_marker_4e517036d2ebd594309961e3f4d52ab1.bindPopup(popup_2f96c473098f5df5cf4c3bc0c35d8bfc)
+        ;
+
+        
+    
+    
+            circle_marker_4e517036d2ebd594309961e3f4d52ab1.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fd5d95b893524d4b1c2af87d9331dba1 = L.circleMarker(
+                [22.5540087, 75.7527638],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_b76824fbbfb81e13897205436351f215 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7f84da856c915ed45287c0b5e0631550 = $(`<div id="html_7f84da856c915ed45287c0b5e0631550" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Madhya Pradesh</b><br>                 ⭐ Rating: <b>3</b>               </div></div>`)[0];
+                popup_b76824fbbfb81e13897205436351f215.setContent(html_7f84da856c915ed45287c0b5e0631550);
+            
+        
+
+        circle_marker_fd5d95b893524d4b1c2af87d9331dba1.bindPopup(popup_b76824fbbfb81e13897205436351f215)
+        ;
+
+        
+    
+    
+            circle_marker_fd5d95b893524d4b1c2af87d9331dba1.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2d4e314ba4e8804deb3f7bc0d10b8795 = L.circleMarker(
+                [13.56108262, 78.51179308],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_28dc20da84730979de32815e4cdb5bbf = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_87d5076f2cfc3b51b5b1a6d6474f2b65 = $(`<div id="html_87d5076f2cfc3b51b5b1a6d6474f2b65" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>bsnl</b><br>                 📶 Network: <b>3G</b><br>                 🌍 State: <b>Andhra Pradesh</b><br>                 ⭐ Rating: <b>3</b>               </div></div>`)[0];
+                popup_28dc20da84730979de32815e4cdb5bbf.setContent(html_87d5076f2cfc3b51b5b1a6d6474f2b65);
+            
+        
+
+        circle_marker_2d4e314ba4e8804deb3f7bc0d10b8795.bindPopup(popup_28dc20da84730979de32815e4cdb5bbf)
+        ;
+
+        
+    
+    
+            circle_marker_2d4e314ba4e8804deb3f7bc0d10b8795.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6be69c8c12fe1e62e80e72dfff1ce716 = L.circleMarker(
+                [23.46136, 88.26982167],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_368cb79c8e91f7c6eece0a6c0f868dc2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5a35aabae254500efe41f242ac43a779 = $(`<div id="html_5a35aabae254500efe41f242ac43a779" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>vi</b><br>                 📶 Network: <b>2G</b><br>                 🌍 State: <b>West Bengal</b><br>                 ⭐ Rating: <b>4</b>               </div></div>`)[0];
+                popup_368cb79c8e91f7c6eece0a6c0f868dc2.setContent(html_5a35aabae254500efe41f242ac43a779);
+            
+        
+
+        circle_marker_6be69c8c12fe1e62e80e72dfff1ce716.bindPopup(popup_368cb79c8e91f7c6eece0a6c0f868dc2)
+        ;
+
+        
+    
+    
+            circle_marker_6be69c8c12fe1e62e80e72dfff1ce716.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_12a488d51b029613201aa2ed61150145 = L.circleMarker(
+                [26.8547159, 75.7667077],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_0b00d8c48b983b0e6c556525f9fd79bf = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_0e58c050b8dffc34b9fb1e23b9b6f129 = $(`<div id="html_0e58c050b8dffc34b9fb1e23b9b6f129" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Rajasthan</b><br>                 ⭐ Rating: <b>1</b>               </div></div>`)[0];
+                popup_0b00d8c48b983b0e6c556525f9fd79bf.setContent(html_0e58c050b8dffc34b9fb1e23b9b6f129);
+            
+        
+
+        circle_marker_12a488d51b029613201aa2ed61150145.bindPopup(popup_0b00d8c48b983b0e6c556525f9fd79bf)
+        ;
+
+        
+    
+    
+            circle_marker_12a488d51b029613201aa2ed61150145.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3c6ff832cacab0aa82ee94a5efd7debb = L.circleMarker(
+                [28.13322107, 77.33530625],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_49957579fece7f570155df74e186696e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_72dfe64f70016c8a2610fa4da0bb6473 = $(`<div id="html_72dfe64f70016c8a2610fa4da0bb6473" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>airtel</b><br>                 📶 Network: <b>Unknown</b><br>                 🌍 State: <b>Haryana</b><br>                 ⭐ Rating: <b>4</b>               </div></div>`)[0];
+                popup_49957579fece7f570155df74e186696e.setContent(html_72dfe64f70016c8a2610fa4da0bb6473);
+            
+        
+
+        circle_marker_3c6ff832cacab0aa82ee94a5efd7debb.bindPopup(popup_49957579fece7f570155df74e186696e)
+        ;
+
+        
+    
+    
+            circle_marker_3c6ff832cacab0aa82ee94a5efd7debb.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a42d4a14895e6b0fc794cfa259767441 = L.circleMarker(
+                [21.21784801, 72.85522703],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_2df1c50df1de4cfaf77d0868be77412e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_848c1cd60f57aeb6855d53eddfb7dc8e = $(`<div id="html_848c1cd60f57aeb6855d53eddfb7dc8e" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>vi</b><br>                 📶 Network: <b>3G</b><br>                 🌍 State: <b>Gujarat</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_2df1c50df1de4cfaf77d0868be77412e.setContent(html_848c1cd60f57aeb6855d53eddfb7dc8e);
+            
+        
+
+        circle_marker_a42d4a14895e6b0fc794cfa259767441.bindPopup(popup_2df1c50df1de4cfaf77d0868be77412e)
+        ;
+
+        
+    
+    
+            circle_marker_a42d4a14895e6b0fc794cfa259767441.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c93ed80af1afa5f11c5396d75655a222 = L.circleMarker(
+                [28.230319, 77.86694958],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_92c2d25ad7588eb5f8b7ce9187f77b14 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6adac6828e719d83aa11f9e57a630631 = $(`<div id="html_6adac6828e719d83aa11f9e57a630631" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>vi</b><br>                 📶 Network: <b>3G</b><br>                 🌍 State: <b>Uttar Pradesh</b><br>                 ⭐ Rating: <b>2</b>               </div></div>`)[0];
+                popup_92c2d25ad7588eb5f8b7ce9187f77b14.setContent(html_6adac6828e719d83aa11f9e57a630631);
+            
+        
+
+        circle_marker_c93ed80af1afa5f11c5396d75655a222.bindPopup(popup_92c2d25ad7588eb5f8b7ce9187f77b14)
+        ;
+
+        
+    
+    
+            circle_marker_c93ed80af1afa5f11c5396d75655a222.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a5d21a6dfd0bfe570360092dc8aedb9f = L.circleMarker(
+                [23.050872, 72.52619724],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_393f99c0df2d0bba3b6eb60f6f043d87 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_bc9573d1c81f15a4af4d6c732cda3427 = $(`<div id="html_bc9573d1c81f15a4af4d6c732cda3427" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>airtel</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Gujarat</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_393f99c0df2d0bba3b6eb60f6f043d87.setContent(html_bc9573d1c81f15a4af4d6c732cda3427);
+            
+        
+
+        circle_marker_a5d21a6dfd0bfe570360092dc8aedb9f.bindPopup(popup_393f99c0df2d0bba3b6eb60f6f043d87)
+        ;
+
+        
+    
+    
+            circle_marker_a5d21a6dfd0bfe570360092dc8aedb9f.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_81f7ccffea1af0834531c3121b38ef5a = L.circleMarker(
+                [13.2807594, 80.4240784],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_61f2c2a5aaca043c77dcfd74700ab6c9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_71ffc825575f1bcff29111a5b488d19b = $(`<div id="html_71ffc825575f1bcff29111a5b488d19b" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Tamil Nadu</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_61f2c2a5aaca043c77dcfd74700ab6c9.setContent(html_71ffc825575f1bcff29111a5b488d19b);
+            
+        
+
+        circle_marker_81f7ccffea1af0834531c3121b38ef5a.bindPopup(popup_61f2c2a5aaca043c77dcfd74700ab6c9)
+        ;
+
+        
+    
+    
+            circle_marker_81f7ccffea1af0834531c3121b38ef5a.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3fa723592e850345e8a2b2ecb140781b = L.circleMarker(
+                [20.8227199, 85.2838769],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_9a124ae2e94dc828b1f9eebd94930624 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9986a4cd78db550273c40dc76ede0097 = $(`<div id="html_9986a4cd78db550273c40dc76ede0097" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Odisha</b><br>                 ⭐ Rating: <b>3</b>               </div></div>`)[0];
+                popup_9a124ae2e94dc828b1f9eebd94930624.setContent(html_9986a4cd78db550273c40dc76ede0097);
+            
+        
+
+        circle_marker_3fa723592e850345e8a2b2ecb140781b.bindPopup(popup_9a124ae2e94dc828b1f9eebd94930624)
+        ;
+
+        
+    
+    
+            circle_marker_3fa723592e850345e8a2b2ecb140781b.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_00e51dacfb3d544cc4be731ea3398726 = L.circleMarker(
+                [22.7902214, 86.235772],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_4414bc8a648ee1928c96597829f53b5f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1bc1c127860a2aacf674040e4a07f5c8 = $(`<div id="html_1bc1c127860a2aacf674040e4a07f5c8" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Jharkhand</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_4414bc8a648ee1928c96597829f53b5f.setContent(html_1bc1c127860a2aacf674040e4a07f5c8);
+            
+        
+
+        circle_marker_00e51dacfb3d544cc4be731ea3398726.bindPopup(popup_4414bc8a648ee1928c96597829f53b5f)
+        ;
+
+        
+    
+    
+            circle_marker_00e51dacfb3d544cc4be731ea3398726.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_10997bd0b2ebb3798699812bc4c8df62 = L.circleMarker(
+                [31.536005, 75.89488833],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_5fa2054ddaddb6eff28faa81ff664182 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_159fe02b9eb27dca66a9219d5ced9e8e = $(`<div id="html_159fe02b9eb27dca66a9219d5ced9e8e" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Punjab</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_5fa2054ddaddb6eff28faa81ff664182.setContent(html_159fe02b9eb27dca66a9219d5ced9e8e);
+            
+        
+
+        circle_marker_10997bd0b2ebb3798699812bc4c8df62.bindPopup(popup_5fa2054ddaddb6eff28faa81ff664182)
+        ;
+
+        
+    
+    
+            circle_marker_10997bd0b2ebb3798699812bc4c8df62.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5f681d6b69bca483872c944c15c5c944 = L.circleMarker(
+                [17.4220006, 78.3365837],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_ab6d7f5ef9da91b120de9601fcdd147f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7f4f6a65155730aaa7fb4a8e59d66123 = $(`<div id="html_7f4f6a65155730aaa7fb4a8e59d66123" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Telangana</b><br>                 ⭐ Rating: <b>2</b>               </div></div>`)[0];
+                popup_ab6d7f5ef9da91b120de9601fcdd147f.setContent(html_7f4f6a65155730aaa7fb4a8e59d66123);
+            
+        
+
+        circle_marker_5f681d6b69bca483872c944c15c5c944.bindPopup(popup_ab6d7f5ef9da91b120de9601fcdd147f)
+        ;
+
+        
+    
+    
+            circle_marker_5f681d6b69bca483872c944c15c5c944.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9da472b25b4eadb47fe1ec78c979f560 = L.circleMarker(
+                [11.15847058, 77.30205315],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_79c3a1436c2972885becaf28ae5318ee = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9647b1abe37e25878cade0ff58c61646 = $(`<div id="html_9647b1abe37e25878cade0ff58c61646" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Tamil Nadu</b><br>                 ⭐ Rating: <b>4</b>               </div></div>`)[0];
+                popup_79c3a1436c2972885becaf28ae5318ee.setContent(html_9647b1abe37e25878cade0ff58c61646);
+            
+        
+
+        circle_marker_9da472b25b4eadb47fe1ec78c979f560.bindPopup(popup_79c3a1436c2972885becaf28ae5318ee)
+        ;
+
+        
+    
+    
+            circle_marker_9da472b25b4eadb47fe1ec78c979f560.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2cfb55b2dcd977634e7b325633fd9ae1 = L.circleMarker(
+                [12.91069688, 77.61459293],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_117dad8ca4bdb24e55d381a13afffb68 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f49e2ff8c4fb64019a9873c973a2a5c8 = $(`<div id="html_f49e2ff8c4fb64019a9873c973a2a5c8" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#e74c3c'>📵 Call Dropped</b><br>                 🏢 Operator: <b>vi</b><br>                 📶 Network: <b>3G</b><br>                 🌍 State: <b>Karnataka</b><br>                 ⭐ Rating: <b>3</b>               </div></div>`)[0];
+                popup_117dad8ca4bdb24e55d381a13afffb68.setContent(html_f49e2ff8c4fb64019a9873c973a2a5c8);
+            
+        
+
+        circle_marker_2cfb55b2dcd977634e7b325633fd9ae1.bindPopup(popup_117dad8ca4bdb24e55d381a13afffb68)
+        ;
+
+        
+    
+    
+            circle_marker_2cfb55b2dcd977634e7b325633fd9ae1.bindTooltip(
+                `<div>
+                     📵 Call Dropped
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_670084ee5b122a1610e15b8f271e15c1 = L.circleMarker(
+                [28.5904982, 77.3285365],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_264061c3c875aaed59ffa4554dfd78f2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_77c0146875e50b5fdf63801728f3ae57 = $(`<div id="html_77c0146875e50b5fdf63801728f3ae57" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>vi</b><br>                 📶 Network: <b>Unknown</b><br>                 🌍 State: <b>Uttar Pradesh</b><br>                 ⭐ Rating: <b>1</b>               </div></div>`)[0];
+                popup_264061c3c875aaed59ffa4554dfd78f2.setContent(html_77c0146875e50b5fdf63801728f3ae57);
+            
+        
+
+        circle_marker_670084ee5b122a1610e15b8f271e15c1.bindPopup(popup_264061c3c875aaed59ffa4554dfd78f2)
+        ;
+
+        
+    
+    
+            circle_marker_670084ee5b122a1610e15b8f271e15c1.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e5a46ff077a52f27270dda6236fb1f26 = L.circleMarker(
+                [30.71436333, 76.851825],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_3a3b29c1a6f68554a5b8b175d4b457b9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_88e9ca296a4328afaea60bd01d0ab5ba = $(`<div id="html_88e9ca296a4328afaea60bd01d0ab5ba" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>airtel</b><br>                 📶 Network: <b>3G</b><br>                 🌍 State: <b>Chandigarh</b><br>                 ⭐ Rating: <b>3</b>               </div></div>`)[0];
+                popup_3a3b29c1a6f68554a5b8b175d4b457b9.setContent(html_88e9ca296a4328afaea60bd01d0ab5ba);
+            
+        
+
+        circle_marker_e5a46ff077a52f27270dda6236fb1f26.bindPopup(popup_3a3b29c1a6f68554a5b8b175d4b457b9)
+        ;
+
+        
+    
+    
+            circle_marker_e5a46ff077a52f27270dda6236fb1f26.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7f65e918dc5f48b7768150de14e0ebf2 = L.circleMarker(
+                [28.6797722, 77.198298],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_28c35a253d14f9e694780e8372c28618 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e963ccff98c569bc14712daa3f8a70bf = $(`<div id="html_e963ccff98c569bc14712daa3f8a70bf" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>vi</b><br>                 📶 Network: <b>3G</b><br>                 🌍 State: <b>NCT</b><br>                 ⭐ Rating: <b>3</b>               </div></div>`)[0];
+                popup_28c35a253d14f9e694780e8372c28618.setContent(html_e963ccff98c569bc14712daa3f8a70bf);
+            
+        
+
+        circle_marker_7f65e918dc5f48b7768150de14e0ebf2.bindPopup(popup_28c35a253d14f9e694780e8372c28618)
+        ;
+
+        
+    
+    
+            circle_marker_7f65e918dc5f48b7768150de14e0ebf2.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f276189996c1a88e07e54523644fe4e7 = L.circleMarker(
+                [22.5508535, 88.40313185],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_65fe943d776b3d45238e5e7292ad5736 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6c0b37ca78f18566ce948596333e7b62 = $(`<div id="html_6c0b37ca78f18566ce948596333e7b62" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>West Bengal</b><br>                 ⭐ Rating: <b>2</b>               </div></div>`)[0];
+                popup_65fe943d776b3d45238e5e7292ad5736.setContent(html_6c0b37ca78f18566ce948596333e7b62);
+            
+        
+
+        circle_marker_f276189996c1a88e07e54523644fe4e7.bindPopup(popup_65fe943d776b3d45238e5e7292ad5736)
+        ;
+
+        
+    
+    
+            circle_marker_f276189996c1a88e07e54523644fe4e7.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_08cd7ebaaa6ce24c9613f19c2b73720d = L.circleMarker(
+                [22.85764766, 88.42978108],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_9f4eb242ceb5a3aeb4619c367ff65446 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6cd347b814cac70254dd5bb0d0f2690f = $(`<div id="html_6cd347b814cac70254dd5bb0d0f2690f" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>West Bengal</b><br>                 ⭐ Rating: <b>4</b>               </div></div>`)[0];
+                popup_9f4eb242ceb5a3aeb4619c367ff65446.setContent(html_6cd347b814cac70254dd5bb0d0f2690f);
+            
+        
+
+        circle_marker_08cd7ebaaa6ce24c9613f19c2b73720d.bindPopup(popup_9f4eb242ceb5a3aeb4619c367ff65446)
+        ;
+
+        
+    
+    
+            circle_marker_08cd7ebaaa6ce24c9613f19c2b73720d.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_792b41a26903f24c789ad7046d4d8c99 = L.circleMarker(
+                [22.5167489, 88.4019004],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_6e6d55f2b5b0bab3d108669305895d8c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_3e1966b364bd5a26c7cddc4bb96f2927 = $(`<div id="html_3e1966b364bd5a26c7cddc4bb96f2927" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>West Bengal</b><br>                 ⭐ Rating: <b>1</b>               </div></div>`)[0];
+                popup_6e6d55f2b5b0bab3d108669305895d8c.setContent(html_3e1966b364bd5a26c7cddc4bb96f2927);
+            
+        
+
+        circle_marker_792b41a26903f24c789ad7046d4d8c99.bindPopup(popup_6e6d55f2b5b0bab3d108669305895d8c)
+        ;
+
+        
+    
+    
+            circle_marker_792b41a26903f24c789ad7046d4d8c99.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_855a6df5feca75d4aef8fc16b6835e5e = L.circleMarker(
+                [28.7056746, 77.1231821],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_736b544c08f6513814d0a24df9404fe2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_757ef5838441ba3e682e372d39fd7b04 = $(`<div id="html_757ef5838441ba3e682e372d39fd7b04" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>vi</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>NCT</b><br>                 ⭐ Rating: <b>1</b>               </div></div>`)[0];
+                popup_736b544c08f6513814d0a24df9404fe2.setContent(html_757ef5838441ba3e682e372d39fd7b04);
+            
+        
+
+        circle_marker_855a6df5feca75d4aef8fc16b6835e5e.bindPopup(popup_736b544c08f6513814d0a24df9404fe2)
+        ;
+
+        
+    
+    
+            circle_marker_855a6df5feca75d4aef8fc16b6835e5e.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b362441e2c0355f34d80ab721a60d314 = L.circleMarker(
+                [30.8268466, 76.5739279],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_9c599741c7cfc5fa3f51457dc7d468bc = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7c680d53b2e5f5fa3b8ab22bd3c4856b = $(`<div id="html_7c680d53b2e5f5fa3b8ab22bd3c4856b" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Punjab</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_9c599741c7cfc5fa3f51457dc7d468bc.setContent(html_7c680d53b2e5f5fa3b8ab22bd3c4856b);
+            
+        
+
+        circle_marker_b362441e2c0355f34d80ab721a60d314.bindPopup(popup_9c599741c7cfc5fa3f51457dc7d468bc)
+        ;
+
+        
+    
+    
+            circle_marker_b362441e2c0355f34d80ab721a60d314.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_65558e2a27bef8fb50b6ba9340a4cee7 = L.circleMarker(
+                [28.9852042, 77.7493145],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_33823a9bf82840252291946a581ff82b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e714e3a5a1125f29e4402764cb6914d2 = $(`<div id="html_e714e3a5a1125f29e4402764cb6914d2" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>bsnl</b><br>                 📶 Network: <b>2G</b><br>                 🌍 State: <b>Uttar Pradesh</b><br>                 ⭐ Rating: <b>4</b>               </div></div>`)[0];
+                popup_33823a9bf82840252291946a581ff82b.setContent(html_e714e3a5a1125f29e4402764cb6914d2);
+            
+        
+
+        circle_marker_65558e2a27bef8fb50b6ba9340a4cee7.bindPopup(popup_33823a9bf82840252291946a581ff82b)
+        ;
+
+        
+    
+    
+            circle_marker_65558e2a27bef8fb50b6ba9340a4cee7.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3b35fede31d83893f55487d57e05ecbe = L.circleMarker(
+                [26.87076753, 80.95844579],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_762eec885f654ac06bd49852c9eac6a4 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_fc9dca67617995ce238a0d134a558478 = $(`<div id="html_fc9dca67617995ce238a0d134a558478" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Uttar Pradesh</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_762eec885f654ac06bd49852c9eac6a4.setContent(html_fc9dca67617995ce238a0d134a558478);
+            
+        
+
+        circle_marker_3b35fede31d83893f55487d57e05ecbe.bindPopup(popup_762eec885f654ac06bd49852c9eac6a4)
+        ;
+
+        
+    
+    
+            circle_marker_3b35fede31d83893f55487d57e05ecbe.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5b50fbf68c58edec1bef277979a4a847 = L.circleMarker(
+                [17.8220126, 76.2651098],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_ac85f61ffa9a1e7dade9a39b9a76c093 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_95b99859802e6dd9dcb85d8a19625cda = $(`<div id="html_95b99859802e6dd9dcb85d8a19625cda" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Maharashtra</b><br>                 ⭐ Rating: <b>1</b>               </div></div>`)[0];
+                popup_ac85f61ffa9a1e7dade9a39b9a76c093.setContent(html_95b99859802e6dd9dcb85d8a19625cda);
+            
+        
+
+        circle_marker_5b50fbf68c58edec1bef277979a4a847.bindPopup(popup_ac85f61ffa9a1e7dade9a39b9a76c093)
+        ;
+
+        
+    
+    
+            circle_marker_5b50fbf68c58edec1bef277979a4a847.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b19b429be042c6d6d6bc7da7deffc016 = L.circleMarker(
+                [12.92230661, 77.66813067],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_353da9bf2b4404d2e37750a33cd2706a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d6fc1abe2803f4030001a215b0b087f8 = $(`<div id="html_d6fc1abe2803f4030001a215b0b087f8" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>airtel</b><br>                 📶 Network: <b>Unknown</b><br>                 🌍 State: <b>Karnataka</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_353da9bf2b4404d2e37750a33cd2706a.setContent(html_d6fc1abe2803f4030001a215b0b087f8);
+            
+        
+
+        circle_marker_b19b429be042c6d6d6bc7da7deffc016.bindPopup(popup_353da9bf2b4404d2e37750a33cd2706a)
+        ;
+
+        
+    
+    
+            circle_marker_b19b429be042c6d6d6bc7da7deffc016.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c83301c09b5b9364f0ff279923c14ffb = L.circleMarker(
+                [19.12647224, 72.83875179],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_ec41b596e042c7558e5a6771b9d0c962 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6caaceb9ec3aa2f7a722146ba0e2b97a = $(`<div id="html_6caaceb9ec3aa2f7a722146ba0e2b97a" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#e74c3c'>📵 Call Dropped</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Maharashtra</b><br>                 ⭐ Rating: <b>1</b>               </div></div>`)[0];
+                popup_ec41b596e042c7558e5a6771b9d0c962.setContent(html_6caaceb9ec3aa2f7a722146ba0e2b97a);
+            
+        
+
+        circle_marker_c83301c09b5b9364f0ff279923c14ffb.bindPopup(popup_ec41b596e042c7558e5a6771b9d0c962)
+        ;
+
+        
+    
+    
+            circle_marker_c83301c09b5b9364f0ff279923c14ffb.bindTooltip(
+                `<div>
+                     📵 Call Dropped
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5d191505c76410a06f0ff2d9fa40a735 = L.circleMarker(
+                [25.4302957, 78.55330699],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_e630be9c9e2052be9d29eba9ba7cd59e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_92ee841059b086c1f2ad2bb8652878f7 = $(`<div id="html_92ee841059b086c1f2ad2bb8652878f7" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>vi</b><br>                 📶 Network: <b>3G</b><br>                 🌍 State: <b>Uttar Pradesh</b><br>                 ⭐ Rating: <b>2</b>               </div></div>`)[0];
+                popup_e630be9c9e2052be9d29eba9ba7cd59e.setContent(html_92ee841059b086c1f2ad2bb8652878f7);
+            
+        
+
+        circle_marker_5d191505c76410a06f0ff2d9fa40a735.bindPopup(popup_e630be9c9e2052be9d29eba9ba7cd59e)
+        ;
+
+        
+    
+    
+            circle_marker_5d191505c76410a06f0ff2d9fa40a735.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4175969648b26f966bbba003570f0461 = L.circleMarker(
+                [22.6533351, 87.7356775],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_c4d3faf5c233bda490bd2fd8e64b258b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a0550dc0bfc181d8054cb527d2c76b46 = $(`<div id="html_a0550dc0bfc181d8054cb527d2c76b46" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>vi</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>West Bengal</b><br>                 ⭐ Rating: <b>4</b>               </div></div>`)[0];
+                popup_c4d3faf5c233bda490bd2fd8e64b258b.setContent(html_a0550dc0bfc181d8054cb527d2c76b46);
+            
+        
+
+        circle_marker_4175969648b26f966bbba003570f0461.bindPopup(popup_c4d3faf5c233bda490bd2fd8e64b258b)
+        ;
+
+        
+    
+    
+            circle_marker_4175969648b26f966bbba003570f0461.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4f95a5d5ecb98601c1b2e58e4323b4e7 = L.circleMarker(
+                [28.6394603, 77.36019756],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_9432a5c234e270628d643d7331ff1b77 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a61eb88847f73bb7e2dec2909900b477 = $(`<div id="html_a61eb88847f73bb7e2dec2909900b477" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>airtel</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Uttar Pradesh</b><br>                 ⭐ Rating: <b>4</b>               </div></div>`)[0];
+                popup_9432a5c234e270628d643d7331ff1b77.setContent(html_a61eb88847f73bb7e2dec2909900b477);
+            
+        
+
+        circle_marker_4f95a5d5ecb98601c1b2e58e4323b4e7.bindPopup(popup_9432a5c234e270628d643d7331ff1b77)
+        ;
+
+        
+    
+    
+            circle_marker_4f95a5d5ecb98601c1b2e58e4323b4e7.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b6e147f5fb1d494da2a9f2e5e10f6367 = L.circleMarker(
+                [22.50226512, 88.38407835],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_c2b2a707ae2d48ee0b33807a93e4ad13 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b4de9b11cece86dcc6e1d6430c95f358 = $(`<div id="html_b4de9b11cece86dcc6e1d6430c95f358" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>West Bengal</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_c2b2a707ae2d48ee0b33807a93e4ad13.setContent(html_b4de9b11cece86dcc6e1d6430c95f358);
+            
+        
+
+        circle_marker_b6e147f5fb1d494da2a9f2e5e10f6367.bindPopup(popup_c2b2a707ae2d48ee0b33807a93e4ad13)
+        ;
+
+        
+    
+    
+            circle_marker_b6e147f5fb1d494da2a9f2e5e10f6367.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_245af8c2ef37e775b09fcd5a75da2f31 = L.circleMarker(
+                [25.4302957, 78.55330699],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_92da8950c95148dfb87a40686bbccc94 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1f2150344016f8aa32152de81e3e9f6f = $(`<div id="html_1f2150344016f8aa32152de81e3e9f6f" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>vi</b><br>                 📶 Network: <b>3G</b><br>                 🌍 State: <b>Uttar Pradesh</b><br>                 ⭐ Rating: <b>1</b>               </div></div>`)[0];
+                popup_92da8950c95148dfb87a40686bbccc94.setContent(html_1f2150344016f8aa32152de81e3e9f6f);
+            
+        
+
+        circle_marker_245af8c2ef37e775b09fcd5a75da2f31.bindPopup(popup_92da8950c95148dfb87a40686bbccc94)
+        ;
+
+        
+    
+    
+            circle_marker_245af8c2ef37e775b09fcd5a75da2f31.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6b1cba8f21da7dd5f2d7fafdc012b915 = L.circleMarker(
+                [13.5617112, 78.5117784],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_b5d96bb67d7efc027a34e61f4d7b6dd3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6fabcd263ecb2e4ad106cde26e79424b = $(`<div id="html_6fabcd263ecb2e4ad106cde26e79424b" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>bsnl</b><br>                 📶 Network: <b>3G</b><br>                 🌍 State: <b>Andhra Pradesh</b><br>                 ⭐ Rating: <b>3</b>               </div></div>`)[0];
+                popup_b5d96bb67d7efc027a34e61f4d7b6dd3.setContent(html_6fabcd263ecb2e4ad106cde26e79424b);
+            
+        
+
+        circle_marker_6b1cba8f21da7dd5f2d7fafdc012b915.bindPopup(popup_b5d96bb67d7efc027a34e61f4d7b6dd3)
+        ;
+
+        
+    
+    
+            circle_marker_6b1cba8f21da7dd5f2d7fafdc012b915.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0dffa22ee024ed363afad54b3e4a7ef9 = L.circleMarker(
+                [26.87081335, 80.96263921],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_e104768bb615b9f0f524570c18adff65 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_186bec6ffa08bb43d57675ce9e2321b2 = $(`<div id="html_186bec6ffa08bb43d57675ce9e2321b2" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Uttar Pradesh</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_e104768bb615b9f0f524570c18adff65.setContent(html_186bec6ffa08bb43d57675ce9e2321b2);
+            
+        
+
+        circle_marker_0dffa22ee024ed363afad54b3e4a7ef9.bindPopup(popup_e104768bb615b9f0f524570c18adff65)
+        ;
+
+        
+    
+    
+            circle_marker_0dffa22ee024ed363afad54b3e4a7ef9.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_45fbab6669383757d78c6feda674f1e8 = L.circleMarker(
+                [12.972256, 79.1584138],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_29ad79a9c12c6a89d630fbe105951678 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7df81c2e6d345582d735996b279d2bec = $(`<div id="html_7df81c2e6d345582d735996b279d2bec" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>airtel</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Tamil Nadu</b><br>                 ⭐ Rating: <b>4</b>               </div></div>`)[0];
+                popup_29ad79a9c12c6a89d630fbe105951678.setContent(html_7df81c2e6d345582d735996b279d2bec);
+            
+        
+
+        circle_marker_45fbab6669383757d78c6feda674f1e8.bindPopup(popup_29ad79a9c12c6a89d630fbe105951678)
+        ;
+
+        
+    
+    
+            circle_marker_45fbab6669383757d78c6feda674f1e8.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_931fbb076ceb39f755af7db01b26c509 = L.circleMarker(
+                [27.65794281, 94.7122816],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_1d71fa402b0018dc101e591aa3b9a23f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1bcee0ae108e037187785dadec0d6b4d = $(`<div id="html_1bcee0ae108e037187785dadec0d6b4d" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Assam</b><br>                 ⭐ Rating: <b>3</b>               </div></div>`)[0];
+                popup_1d71fa402b0018dc101e591aa3b9a23f.setContent(html_1bcee0ae108e037187785dadec0d6b4d);
+            
+        
+
+        circle_marker_931fbb076ceb39f755af7db01b26c509.bindPopup(popup_1d71fa402b0018dc101e591aa3b9a23f)
+        ;
+
+        
+    
+    
+            circle_marker_931fbb076ceb39f755af7db01b26c509.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dd1e4ede5c31b3af2a40d4b4d7915d79 = L.circleMarker(
+                [21.2301266, 72.838797],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_4e7447aa09284e120225e695315188de = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ab5f2f67b111d1f0313024307e502416 = $(`<div id="html_ab5f2f67b111d1f0313024307e502416" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#e74c3c'>📵 Call Dropped</b><br>                 🏢 Operator: <b>vi</b><br>                 📶 Network: <b>3G</b><br>                 🌍 State: <b>Gujarat</b><br>                 ⭐ Rating: <b>1</b>               </div></div>`)[0];
+                popup_4e7447aa09284e120225e695315188de.setContent(html_ab5f2f67b111d1f0313024307e502416);
+            
+        
+
+        circle_marker_dd1e4ede5c31b3af2a40d4b4d7915d79.bindPopup(popup_4e7447aa09284e120225e695315188de)
+        ;
+
+        
+    
+    
+            circle_marker_dd1e4ede5c31b3af2a40d4b4d7915d79.bindTooltip(
+                `<div>
+                     📵 Call Dropped
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3cb7b3f7d9dcfbc2f4faf5538411acb3 = L.circleMarker(
+                [26.86131892, 80.95575767],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_41f4f190e617cb3259322f051b8f18ad = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2d0b35fd4e12723a6d9335faa40cdfb1 = $(`<div id="html_2d0b35fd4e12723a6d9335faa40cdfb1" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Uttar Pradesh</b><br>                 ⭐ Rating: <b>4</b>               </div></div>`)[0];
+                popup_41f4f190e617cb3259322f051b8f18ad.setContent(html_2d0b35fd4e12723a6d9335faa40cdfb1);
+            
+        
+
+        circle_marker_3cb7b3f7d9dcfbc2f4faf5538411acb3.bindPopup(popup_41f4f190e617cb3259322f051b8f18ad)
+        ;
+
+        
+    
+    
+            circle_marker_3cb7b3f7d9dcfbc2f4faf5538411acb3.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_190946f4559cd70a89c88e2b1850fd2e = L.circleMarker(
+                [13.08241874, 80.20879819],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_d7c627a7777637133d991f6cbb77b8b3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2a6c91bde888692cee13afc1826a3744 = $(`<div id="html_2a6c91bde888692cee13afc1826a3744" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>bsnl</b><br>                 📶 Network: <b>3G</b><br>                 🌍 State: <b>Tamil Nadu</b><br>                 ⭐ Rating: <b>4</b>               </div></div>`)[0];
+                popup_d7c627a7777637133d991f6cbb77b8b3.setContent(html_2a6c91bde888692cee13afc1826a3744);
+            
+        
+
+        circle_marker_190946f4559cd70a89c88e2b1850fd2e.bindPopup(popup_d7c627a7777637133d991f6cbb77b8b3)
+        ;
+
+        
+    
+    
+            circle_marker_190946f4559cd70a89c88e2b1850fd2e.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bfb88dd417c5e3ad6b16ccc3ab1102cd = L.circleMarker(
+                [28.4947105, 77.0886429],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_5788a380eb83c38a032f700d94c1b81d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_79125ec94c96996a7420a0df17d89e87 = $(`<div id="html_79125ec94c96996a7420a0df17d89e87" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>vi</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Haryana</b><br>                 ⭐ Rating: <b>1</b>               </div></div>`)[0];
+                popup_5788a380eb83c38a032f700d94c1b81d.setContent(html_79125ec94c96996a7420a0df17d89e87);
+            
+        
+
+        circle_marker_bfb88dd417c5e3ad6b16ccc3ab1102cd.bindPopup(popup_5788a380eb83c38a032f700d94c1b81d)
+        ;
+
+        
+    
+    
+            circle_marker_bfb88dd417c5e3ad6b16ccc3ab1102cd.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_42587422df1debe0ba6941215c15ddb4 = L.circleMarker(
+                [21.14855499, 79.06932817],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_95a241ca1e8776c250d4c851d348a702 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d6b9370c2ce8f31d37fe1bec2af4eb91 = $(`<div id="html_d6b9370c2ce8f31d37fe1bec2af4eb91" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Maharashtra</b><br>                 ⭐ Rating: <b>4</b>               </div></div>`)[0];
+                popup_95a241ca1e8776c250d4c851d348a702.setContent(html_d6b9370c2ce8f31d37fe1bec2af4eb91);
+            
+        
+
+        circle_marker_42587422df1debe0ba6941215c15ddb4.bindPopup(popup_95a241ca1e8776c250d4c851d348a702)
+        ;
+
+        
+    
+    
+            circle_marker_42587422df1debe0ba6941215c15ddb4.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_df50e694d3e3841b5eec6ac28237250e = L.circleMarker(
+                [12.91757634, 77.62202364],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_de6fcde99e2ed259fe996d115abe1444 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5be300e0778a1d097e932d3ac4129c03 = $(`<div id="html_5be300e0778a1d097e932d3ac4129c03" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>airtel</b><br>                 📶 Network: <b>Unknown</b><br>                 🌍 State: <b>Karnataka</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_de6fcde99e2ed259fe996d115abe1444.setContent(html_5be300e0778a1d097e932d3ac4129c03);
+            
+        
+
+        circle_marker_df50e694d3e3841b5eec6ac28237250e.bindPopup(popup_de6fcde99e2ed259fe996d115abe1444)
+        ;
+
+        
+    
+    
+            circle_marker_df50e694d3e3841b5eec6ac28237250e.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_41bae497e08cabc5c7d10cca7024d91a = L.circleMarker(
+                [12.979165, 77.58504167],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_1e91b9e31b44cc0264efab5d789de934 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c76bae8bcf0f9b92314070a233ac06cb = $(`<div id="html_c76bae8bcf0f9b92314070a233ac06cb" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>airtel</b><br>                 📶 Network: <b>3G</b><br>                 🌍 State: <b>Karnataka</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_1e91b9e31b44cc0264efab5d789de934.setContent(html_c76bae8bcf0f9b92314070a233ac06cb);
+            
+        
+
+        circle_marker_41bae497e08cabc5c7d10cca7024d91a.bindPopup(popup_1e91b9e31b44cc0264efab5d789de934)
+        ;
+
+        
+    
+    
+            circle_marker_41bae497e08cabc5c7d10cca7024d91a.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8d1b73617b660507d12f1f7bf9c434dc = L.circleMarker(
+                [28.5483758, 77.1821483],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_334e96cdbb2dcf6516712ca543295728 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4db04aa6ca6ae80aa5d5fa4f0a5fbf13 = $(`<div id="html_4db04aa6ca6ae80aa5d5fa4f0a5fbf13" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>NCT</b><br>                 ⭐ Rating: <b>4</b>               </div></div>`)[0];
+                popup_334e96cdbb2dcf6516712ca543295728.setContent(html_4db04aa6ca6ae80aa5d5fa4f0a5fbf13);
+            
+        
+
+        circle_marker_8d1b73617b660507d12f1f7bf9c434dc.bindPopup(popup_334e96cdbb2dcf6516712ca543295728)
+        ;
+
+        
+    
+    
+            circle_marker_8d1b73617b660507d12f1f7bf9c434dc.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b582c46a330c8778333ea35d1659b76a = L.circleMarker(
+                [21.12582035, 73.11727766],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_6cfe843b4f13d2783d0401e34459d29d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e1960801e500dcdcf374129bbf50fe6c = $(`<div id="html_e1960801e500dcdcf374129bbf50fe6c" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>vi</b><br>                 📶 Network: <b>3G</b><br>                 🌍 State: <b>Gujarat</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_6cfe843b4f13d2783d0401e34459d29d.setContent(html_e1960801e500dcdcf374129bbf50fe6c);
+            
+        
+
+        circle_marker_b582c46a330c8778333ea35d1659b76a.bindPopup(popup_6cfe843b4f13d2783d0401e34459d29d)
+        ;
+
+        
+    
+    
+            circle_marker_b582c46a330c8778333ea35d1659b76a.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_69ed4462abd5c5244ff761302df05a67 = L.circleMarker(
+                [21.19363606, 72.86095327],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_f815f2269102624a3047da988b3ebbbd = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_469bd646b8d068b366d2cd3965bee978 = $(`<div id="html_469bd646b8d068b366d2cd3965bee978" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>vi</b><br>                 📶 Network: <b>Unknown</b><br>                 🌍 State: <b>Gujarat</b><br>                 ⭐ Rating: <b>2</b>               </div></div>`)[0];
+                popup_f815f2269102624a3047da988b3ebbbd.setContent(html_469bd646b8d068b366d2cd3965bee978);
+            
+        
+
+        circle_marker_69ed4462abd5c5244ff761302df05a67.bindPopup(popup_f815f2269102624a3047da988b3ebbbd)
+        ;
+
+        
+    
+    
+            circle_marker_69ed4462abd5c5244ff761302df05a67.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4657e47201a53584ee9607db1f4049c0 = L.circleMarker(
+                [18.6531147, 73.8354737],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_d1a87316c306cc009a8c71c4fd53681c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_369237ba3ba492bb68b6fc1344bd9c2c = $(`<div id="html_369237ba3ba492bb68b6fc1344bd9c2c" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Maharashtra</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_d1a87316c306cc009a8c71c4fd53681c.setContent(html_369237ba3ba492bb68b6fc1344bd9c2c);
+            
+        
+
+        circle_marker_4657e47201a53584ee9607db1f4049c0.bindPopup(popup_d1a87316c306cc009a8c71c4fd53681c)
+        ;
+
+        
+    
+    
+            circle_marker_4657e47201a53584ee9607db1f4049c0.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3d78d8d93329ed28a52e8cae163a1e27 = L.circleMarker(
+                [12.9970391, 77.6269314],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_3f831411b243f1cbe80b7ae0e7882104 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_41c3a3f5384ef4961454dc1ab46f3b00 = $(`<div id="html_41c3a3f5384ef4961454dc1ab46f3b00" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Karnataka</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_3f831411b243f1cbe80b7ae0e7882104.setContent(html_41c3a3f5384ef4961454dc1ab46f3b00);
+            
+        
+
+        circle_marker_3d78d8d93329ed28a52e8cae163a1e27.bindPopup(popup_3f831411b243f1cbe80b7ae0e7882104)
+        ;
+
+        
+    
+    
+            circle_marker_3d78d8d93329ed28a52e8cae163a1e27.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9867b25fba8794c1f3b52342cfc98b5b = L.circleMarker(
+                [26.16294635, 91.55937618],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_e1616bfdd24caf4b82129d11314a2ace = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1eec1c39e56bcb9d3e197aaa70143fa5 = $(`<div id="html_1eec1c39e56bcb9d3e197aaa70143fa5" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Assam</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_e1616bfdd24caf4b82129d11314a2ace.setContent(html_1eec1c39e56bcb9d3e197aaa70143fa5);
+            
+        
+
+        circle_marker_9867b25fba8794c1f3b52342cfc98b5b.bindPopup(popup_e1616bfdd24caf4b82129d11314a2ace)
+        ;
+
+        
+    
+    
+            circle_marker_9867b25fba8794c1f3b52342cfc98b5b.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fd34d641512ab1756a9d8b25fed54e19 = L.circleMarker(
+                [23.08185249, 72.56386302],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_ee2325e82944d1023471170f380f5b49 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_258ef186a31ff0c325bcae4b0d095abd = $(`<div id="html_258ef186a31ff0c325bcae4b0d095abd" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Gujarat</b><br>                 ⭐ Rating: <b>4</b>               </div></div>`)[0];
+                popup_ee2325e82944d1023471170f380f5b49.setContent(html_258ef186a31ff0c325bcae4b0d095abd);
+            
+        
+
+        circle_marker_fd34d641512ab1756a9d8b25fed54e19.bindPopup(popup_ee2325e82944d1023471170f380f5b49)
+        ;
+
+        
+    
+    
+            circle_marker_fd34d641512ab1756a9d8b25fed54e19.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3e4c6359ebe55aa9990f17e11d2367e8 = L.circleMarker(
+                [23.2629749, 88.1451504],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_74b1e4dc760a569fd0f45aa32773e35f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_66c80cf466e96e9f56b948d1ad0ecf67 = $(`<div id="html_66c80cf466e96e9f56b948d1ad0ecf67" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>vi</b><br>                 📶 Network: <b>3G</b><br>                 🌍 State: <b>West Bengal</b><br>                 ⭐ Rating: <b>1</b>               </div></div>`)[0];
+                popup_74b1e4dc760a569fd0f45aa32773e35f.setContent(html_66c80cf466e96e9f56b948d1ad0ecf67);
+            
+        
+
+        circle_marker_3e4c6359ebe55aa9990f17e11d2367e8.bindPopup(popup_74b1e4dc760a569fd0f45aa32773e35f)
+        ;
+
+        
+    
+    
+            circle_marker_3e4c6359ebe55aa9990f17e11d2367e8.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e7bd84c1fdfeda2bc359d7893eeab050 = L.circleMarker(
+                [26.50865596, 80.22914464],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_6f34fea8767c453500dbbe44f6cd3c89 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4730187f37ced4c65d798dc7d093b518 = $(`<div id="html_4730187f37ced4c65d798dc7d093b518" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>airtel</b><br>                 📶 Network: <b>Unknown</b><br>                 🌍 State: <b>Uttar Pradesh</b><br>                 ⭐ Rating: <b>3</b>               </div></div>`)[0];
+                popup_6f34fea8767c453500dbbe44f6cd3c89.setContent(html_4730187f37ced4c65d798dc7d093b518);
+            
+        
+
+        circle_marker_e7bd84c1fdfeda2bc359d7893eeab050.bindPopup(popup_6f34fea8767c453500dbbe44f6cd3c89)
+        ;
+
+        
+    
+    
+            circle_marker_e7bd84c1fdfeda2bc359d7893eeab050.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_03a8f2432dfdd758f7ada0bc85ede645 = L.circleMarker(
+                [15.80116188, 80.32915555],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_232896d3c4ba9063d0c55152824d8d1f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c32d68fc6e5d733ec66123e1318ef36b = $(`<div id="html_c32d68fc6e5d733ec66123e1318ef36b" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Andhra Pradesh</b><br>                 ⭐ Rating: <b>3</b>               </div></div>`)[0];
+                popup_232896d3c4ba9063d0c55152824d8d1f.setContent(html_c32d68fc6e5d733ec66123e1318ef36b);
+            
+        
+
+        circle_marker_03a8f2432dfdd758f7ada0bc85ede645.bindPopup(popup_232896d3c4ba9063d0c55152824d8d1f)
+        ;
+
+        
+    
+    
+            circle_marker_03a8f2432dfdd758f7ada0bc85ede645.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bda28f72828f85067cde134282c83122 = L.circleMarker(
+                [28.6199021, 77.0674193],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_5839f308f7fb7baa46617043cc40b35a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a0053b961986add5dda7dba88c479d6b = $(`<div id="html_a0053b961986add5dda7dba88c479d6b" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>airtel</b><br>                 📶 Network: <b>3G</b><br>                 🌍 State: <b>NCT</b><br>                 ⭐ Rating: <b>2</b>               </div></div>`)[0];
+                popup_5839f308f7fb7baa46617043cc40b35a.setContent(html_a0053b961986add5dda7dba88c479d6b);
+            
+        
+
+        circle_marker_bda28f72828f85067cde134282c83122.bindPopup(popup_5839f308f7fb7baa46617043cc40b35a)
+        ;
+
+        
+    
+    
+            circle_marker_bda28f72828f85067cde134282c83122.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fb36bd4943c5cc104ec1c20eff6f1ab9 = L.circleMarker(
+                [12.9776842, 80.2644632],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_93d5cc9de541774ac1359ef88e711866 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c5d13131ab4292468d9827063d612d17 = $(`<div id="html_c5d13131ab4292468d9827063d612d17" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>airtel</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Tamil Nadu</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_93d5cc9de541774ac1359ef88e711866.setContent(html_c5d13131ab4292468d9827063d612d17);
+            
+        
+
+        circle_marker_fb36bd4943c5cc104ec1c20eff6f1ab9.bindPopup(popup_93d5cc9de541774ac1359ef88e711866)
+        ;
+
+        
+    
+    
+            circle_marker_fb36bd4943c5cc104ec1c20eff6f1ab9.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d70c1ac0da72dd4c82cebc64004c26a5 = L.circleMarker(
+                [20.51709596, 72.95118069],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_b9877e3ff553edadb0274590be412c07 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c3d272004c20c4a457bf6c414156a6e5 = $(`<div id="html_c3d272004c20c4a457bf6c414156a6e5" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>vi</b><br>                 📶 Network: <b>3G</b><br>                 🌍 State: <b>Gujarat</b><br>                 ⭐ Rating: <b>2</b>               </div></div>`)[0];
+                popup_b9877e3ff553edadb0274590be412c07.setContent(html_c3d272004c20c4a457bf6c414156a6e5);
+            
+        
+
+        circle_marker_d70c1ac0da72dd4c82cebc64004c26a5.bindPopup(popup_b9877e3ff553edadb0274590be412c07)
+        ;
+
+        
+    
+    
+            circle_marker_d70c1ac0da72dd4c82cebc64004c26a5.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e27d26dd14e01434e91864c1c6b2c061 = L.circleMarker(
+                [21.24826069, 72.89066714],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_61c1e2ecb276df16435cb89225ef022e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6ad582da1848b4ddf3697ef64fea8dc1 = $(`<div id="html_6ad582da1848b4ddf3697ef64fea8dc1" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>vi</b><br>                 📶 Network: <b>3G</b><br>                 🌍 State: <b>Gujarat</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_61c1e2ecb276df16435cb89225ef022e.setContent(html_6ad582da1848b4ddf3697ef64fea8dc1);
+            
+        
+
+        circle_marker_e27d26dd14e01434e91864c1c6b2c061.bindPopup(popup_61c1e2ecb276df16435cb89225ef022e)
+        ;
+
+        
+    
+    
+            circle_marker_e27d26dd14e01434e91864c1c6b2c061.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f621418ce1945187ffc81bddf286405c = L.circleMarker(
+                [26.0125442, 90.0007596],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_80c11ba8ae83673da2712d3f753f90b4 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7eec1579126793f2e1d79c0a44b1bfad = $(`<div id="html_7eec1579126793f2e1d79c0a44b1bfad" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Assam</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_80c11ba8ae83673da2712d3f753f90b4.setContent(html_7eec1579126793f2e1d79c0a44b1bfad);
+            
+        
+
+        circle_marker_f621418ce1945187ffc81bddf286405c.bindPopup(popup_80c11ba8ae83673da2712d3f753f90b4)
+        ;
+
+        
+    
+    
+            circle_marker_f621418ce1945187ffc81bddf286405c.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3fc47ec7273004f46eccf6a91a3b55d8 = L.circleMarker(
+                [21.75669747, 72.16273509],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_e6d4982a341973dafc2b27179a7e6df6 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1285498397ddee37989b7a3e66021a23 = $(`<div id="html_1285498397ddee37989b7a3e66021a23" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>bsnl</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Gujarat</b><br>                 ⭐ Rating: <b>4</b>               </div></div>`)[0];
+                popup_e6d4982a341973dafc2b27179a7e6df6.setContent(html_1285498397ddee37989b7a3e66021a23);
+            
+        
+
+        circle_marker_3fc47ec7273004f46eccf6a91a3b55d8.bindPopup(popup_e6d4982a341973dafc2b27179a7e6df6)
+        ;
+
+        
+    
+    
+            circle_marker_3fc47ec7273004f46eccf6a91a3b55d8.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_24ff4b01e3c39a45ee11f74525181be3 = L.circleMarker(
+                [28.4583986, 77.0381746],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_86d8dfc18ad7d6c3b3adb89b32bf2389 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f3c4522c0a8e9f03752dcb4705fc726b = $(`<div id="html_f3c4522c0a8e9f03752dcb4705fc726b" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>vi</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Haryana</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_86d8dfc18ad7d6c3b3adb89b32bf2389.setContent(html_f3c4522c0a8e9f03752dcb4705fc726b);
+            
+        
+
+        circle_marker_24ff4b01e3c39a45ee11f74525181be3.bindPopup(popup_86d8dfc18ad7d6c3b3adb89b32bf2389)
+        ;
+
+        
+    
+    
+            circle_marker_24ff4b01e3c39a45ee11f74525181be3.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ba1b85f564d4e873fe7a8caa34a5476d = L.circleMarker(
+                [26.75032317, 79.21346317],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_0869d8d9d1fb46bc25d15900b8bdaf10 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_af2dead56d5aef12ddc7abae30e6d365 = $(`<div id="html_af2dead56d5aef12ddc7abae30e6d365" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>airtel</b><br>                 📶 Network: <b>3G</b><br>                 🌍 State: <b>Uttar Pradesh</b><br>                 ⭐ Rating: <b>3</b>               </div></div>`)[0];
+                popup_0869d8d9d1fb46bc25d15900b8bdaf10.setContent(html_af2dead56d5aef12ddc7abae30e6d365);
+            
+        
+
+        circle_marker_ba1b85f564d4e873fe7a8caa34a5476d.bindPopup(popup_0869d8d9d1fb46bc25d15900b8bdaf10)
+        ;
+
+        
+    
+    
+            circle_marker_ba1b85f564d4e873fe7a8caa34a5476d.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_67091eb3c8ab3ec0b424e3c969250a66 = L.circleMarker(
+                [21.19370165, 72.8167715],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_d34a898d4469febafbd104beb21a7338 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_20ce371becc33d929fc2a081e3519f6b = $(`<div id="html_20ce371becc33d929fc2a081e3519f6b" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>vi</b><br>                 📶 Network: <b>2G</b><br>                 🌍 State: <b>Gujarat</b><br>                 ⭐ Rating: <b>2</b>               </div></div>`)[0];
+                popup_d34a898d4469febafbd104beb21a7338.setContent(html_20ce371becc33d929fc2a081e3519f6b);
+            
+        
+
+        circle_marker_67091eb3c8ab3ec0b424e3c969250a66.bindPopup(popup_d34a898d4469febafbd104beb21a7338)
+        ;
+
+        
+    
+    
+            circle_marker_67091eb3c8ab3ec0b424e3c969250a66.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_db448cd18f81296895156d6d45db76eb = L.circleMarker(
+                [18.0050788, 76.0721043],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_dbb23494890393b888466e9674d02119 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2ff5bf0e1f942055421e613fb27e0a08 = $(`<div id="html_2ff5bf0e1f942055421e613fb27e0a08" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Maharashtra</b><br>                 ⭐ Rating: <b>1</b>               </div></div>`)[0];
+                popup_dbb23494890393b888466e9674d02119.setContent(html_2ff5bf0e1f942055421e613fb27e0a08);
+            
+        
+
+        circle_marker_db448cd18f81296895156d6d45db76eb.bindPopup(popup_dbb23494890393b888466e9674d02119)
+        ;
+
+        
+    
+    
+            circle_marker_db448cd18f81296895156d6d45db76eb.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_50f4d723ce8be330cba0dabfa85a1eff = L.circleMarker(
+                [19.1591605, 73.0265096],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_366779a991b8c9751753e8d6f03322ed = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ccd67e66e44e3b8e49570041bd2d0796 = $(`<div id="html_ccd67e66e44e3b8e49570041bd2d0796" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>airtel</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Maharashtra</b><br>                 ⭐ Rating: <b>3</b>               </div></div>`)[0];
+                popup_366779a991b8c9751753e8d6f03322ed.setContent(html_ccd67e66e44e3b8e49570041bd2d0796);
+            
+        
+
+        circle_marker_50f4d723ce8be330cba0dabfa85a1eff.bindPopup(popup_366779a991b8c9751753e8d6f03322ed)
+        ;
+
+        
+    
+    
+            circle_marker_50f4d723ce8be330cba0dabfa85a1eff.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_875a21e73870032cba423d3cfc68d897 = L.circleMarker(
+                [26.17768802, 91.7721757],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_bfc3440ef5ab0488f7f030470aed2717 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_203e7a5798c509c0d45c7b9cf7cd1921 = $(`<div id="html_203e7a5798c509c0d45c7b9cf7cd1921" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>bsnl</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Assam</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_bfc3440ef5ab0488f7f030470aed2717.setContent(html_203e7a5798c509c0d45c7b9cf7cd1921);
+            
+        
+
+        circle_marker_875a21e73870032cba423d3cfc68d897.bindPopup(popup_bfc3440ef5ab0488f7f030470aed2717)
+        ;
+
+        
+    
+    
+            circle_marker_875a21e73870032cba423d3cfc68d897.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d46aec86b6f7ba74cad3a15fbffcd40a = L.circleMarker(
+                [28.62741833, 77.07571667],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_88c44c78c1219a9508a0dae99aef0c2f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_989ed97be6b88e64cb065eea2f5116ed = $(`<div id="html_989ed97be6b88e64cb065eea2f5116ed" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>reliance</b><br>                 📶 Network: <b>Unknown</b><br>                 🌍 State: <b>NCT</b><br>                 ⭐ Rating: <b>4</b>               </div></div>`)[0];
+                popup_88c44c78c1219a9508a0dae99aef0c2f.setContent(html_989ed97be6b88e64cb065eea2f5116ed);
+            
+        
+
+        circle_marker_d46aec86b6f7ba74cad3a15fbffcd40a.bindPopup(popup_88c44c78c1219a9508a0dae99aef0c2f)
+        ;
+
+        
+    
+    
+            circle_marker_d46aec86b6f7ba74cad3a15fbffcd40a.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c49bb1890fa7b00fc2834697e133230d = L.circleMarker(
+                [28.7056746, 77.1231821],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_acaa7ef34cad39dcfd523a2de8c21d8a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_abfcbb87346a7129bc8475a57cdb0871 = $(`<div id="html_abfcbb87346a7129bc8475a57cdb0871" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>NCT</b><br>                 ⭐ Rating: <b>1</b>               </div></div>`)[0];
+                popup_acaa7ef34cad39dcfd523a2de8c21d8a.setContent(html_abfcbb87346a7129bc8475a57cdb0871);
+            
+        
+
+        circle_marker_c49bb1890fa7b00fc2834697e133230d.bindPopup(popup_acaa7ef34cad39dcfd523a2de8c21d8a)
+        ;
+
+        
+    
+    
+            circle_marker_c49bb1890fa7b00fc2834697e133230d.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e5773de0de6e343fc2699896abb4284b = L.circleMarker(
+                [12.9797873, 80.2040148],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_c7a82a38c00377612f488d390836311d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d4331e7fa843f40b2e7200bee6a1213c = $(`<div id="html_d4331e7fa843f40b2e7200bee6a1213c" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>vi</b><br>                 📶 Network: <b>Unknown</b><br>                 🌍 State: <b>Tamil Nadu</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_c7a82a38c00377612f488d390836311d.setContent(html_d4331e7fa843f40b2e7200bee6a1213c);
+            
+        
+
+        circle_marker_e5773de0de6e343fc2699896abb4284b.bindPopup(popup_c7a82a38c00377612f488d390836311d)
+        ;
+
+        
+    
+    
+            circle_marker_e5773de0de6e343fc2699896abb4284b.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_38ff6da2aca83e98a7688d29bd8d161f = L.circleMarker(
+                [10.00531715, 76.31253],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_94622fc73832048a9c52834dcf2dadfe = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f53fd3ac6809c88185cc78314436bcb5 = $(`<div id="html_f53fd3ac6809c88185cc78314436bcb5" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>airtel</b><br>                 📶 Network: <b>3G</b><br>                 🌍 State: <b>Kerala</b><br>                 ⭐ Rating: <b>3</b>               </div></div>`)[0];
+                popup_94622fc73832048a9c52834dcf2dadfe.setContent(html_f53fd3ac6809c88185cc78314436bcb5);
+            
+        
+
+        circle_marker_38ff6da2aca83e98a7688d29bd8d161f.bindPopup(popup_94622fc73832048a9c52834dcf2dadfe)
+        ;
+
+        
+    
+    
+            circle_marker_38ff6da2aca83e98a7688d29bd8d161f.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_595d529d48c59c0706df5c6ca4960c87 = L.circleMarker(
+                [11.0400976, 76.9289493],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_86c378e235abd069e869d8b3c19556dd = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_81dd66c696930a79b915334df587638d = $(`<div id="html_81dd66c696930a79b915334df587638d" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>airtel</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Tamil Nadu</b><br>                 ⭐ Rating: <b>2</b>               </div></div>`)[0];
+                popup_86c378e235abd069e869d8b3c19556dd.setContent(html_81dd66c696930a79b915334df587638d);
+            
+        
+
+        circle_marker_595d529d48c59c0706df5c6ca4960c87.bindPopup(popup_86c378e235abd069e869d8b3c19556dd)
+        ;
+
+        
+    
+    
+            circle_marker_595d529d48c59c0706df5c6ca4960c87.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ac816319e605da7088a3ba476df61ecb = L.circleMarker(
+                [28.58828072, 77.09309638],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_1b78490157290b51b6db5730508f58fa = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4444f3b1b06fdc3907aa33a79d2fc478 = $(`<div id="html_4444f3b1b06fdc3907aa33a79d2fc478" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>NCT</b><br>                 ⭐ Rating: <b>1</b>               </div></div>`)[0];
+                popup_1b78490157290b51b6db5730508f58fa.setContent(html_4444f3b1b06fdc3907aa33a79d2fc478);
+            
+        
+
+        circle_marker_ac816319e605da7088a3ba476df61ecb.bindPopup(popup_1b78490157290b51b6db5730508f58fa)
+        ;
+
+        
+    
+    
+            circle_marker_ac816319e605da7088a3ba476df61ecb.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_68862b2437e15e66253b91f2fc3a01d4 = L.circleMarker(
+                [21.463783, 80.1996721],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_2ed641efef8a79dc11fd381e97e9293a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a56756461c368ada19101a61974e2d78 = $(`<div id="html_a56756461c368ada19101a61974e2d78" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Maharashtra</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_2ed641efef8a79dc11fd381e97e9293a.setContent(html_a56756461c368ada19101a61974e2d78);
+            
+        
+
+        circle_marker_68862b2437e15e66253b91f2fc3a01d4.bindPopup(popup_2ed641efef8a79dc11fd381e97e9293a)
+        ;
+
+        
+    
+    
+            circle_marker_68862b2437e15e66253b91f2fc3a01d4.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4111246a573a88a5bef6080223c4a102 = L.circleMarker(
+                [26.215385, 81.25735833],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_e814687ce978a1dca8cf053dd37513f1 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_459ecc90d497ac262988e03912cb4c37 = $(`<div id="html_459ecc90d497ac262988e03912cb4c37" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>bsnl</b><br>                 📶 Network: <b>Unknown</b><br>                 🌍 State: <b>Uttar Pradesh</b><br>                 ⭐ Rating: <b>3</b>               </div></div>`)[0];
+                popup_e814687ce978a1dca8cf053dd37513f1.setContent(html_459ecc90d497ac262988e03912cb4c37);
+            
+        
+
+        circle_marker_4111246a573a88a5bef6080223c4a102.bindPopup(popup_e814687ce978a1dca8cf053dd37513f1)
+        ;
+
+        
+    
+    
+            circle_marker_4111246a573a88a5bef6080223c4a102.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_97346a66499fdc7008ad980e3db15e0c = L.circleMarker(
+                [28.69170333, 77.14740258],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_16ae8370d050fbeef13587416453b2e9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2d4beb725ddf1d1b50d07096c86a714b = $(`<div id="html_2d4beb725ddf1d1b50d07096c86a714b" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>vi</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>NCT</b><br>                 ⭐ Rating: <b>1</b>               </div></div>`)[0];
+                popup_16ae8370d050fbeef13587416453b2e9.setContent(html_2d4beb725ddf1d1b50d07096c86a714b);
+            
+        
+
+        circle_marker_97346a66499fdc7008ad980e3db15e0c.bindPopup(popup_16ae8370d050fbeef13587416453b2e9)
+        ;
+
+        
+    
+    
+            circle_marker_97346a66499fdc7008ad980e3db15e0c.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b594f0f1277cae505576c98942b8aab3 = L.circleMarker(
+                [28.66033053, 77.21497009],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_224a91d66fea4d330f7687fb66d495df = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_bf719b2e28393f846da9c89a0c9c69d2 = $(`<div id="html_bf719b2e28393f846da9c89a0c9c69d2" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>vi</b><br>                 📶 Network: <b>Unknown</b><br>                 🌍 State: <b>NCT</b><br>                 ⭐ Rating: <b>1</b>               </div></div>`)[0];
+                popup_224a91d66fea4d330f7687fb66d495df.setContent(html_bf719b2e28393f846da9c89a0c9c69d2);
+            
+        
+
+        circle_marker_b594f0f1277cae505576c98942b8aab3.bindPopup(popup_224a91d66fea4d330f7687fb66d495df)
+        ;
+
+        
+    
+    
+            circle_marker_b594f0f1277cae505576c98942b8aab3.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f30a5ce38638ecd9a85e99f33bbd312a = L.circleMarker(
+                [22.8637983, 88.4076611],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_4805cf82325d98aabd33e366ba653253 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_cac858bac3576392d7e86651f26461ef = $(`<div id="html_cac858bac3576392d7e86651f26461ef" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>West Bengal</b><br>                 ⭐ Rating: <b>3</b>               </div></div>`)[0];
+                popup_4805cf82325d98aabd33e366ba653253.setContent(html_cac858bac3576392d7e86651f26461ef);
+            
+        
+
+        circle_marker_f30a5ce38638ecd9a85e99f33bbd312a.bindPopup(popup_4805cf82325d98aabd33e366ba653253)
+        ;
+
+        
+    
+    
+            circle_marker_f30a5ce38638ecd9a85e99f33bbd312a.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_54e2dbb5d094c4e3c46f3720502aa6c3 = L.circleMarker(
+                [23.22761186, 77.4307893],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_012c60fbe039cebd1a7dcdc99fa24985 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_292732845b810bbf1d63ae5f68950410 = $(`<div id="html_292732845b810bbf1d63ae5f68950410" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Madhya Pradesh</b><br>                 ⭐ Rating: <b>4</b>               </div></div>`)[0];
+                popup_012c60fbe039cebd1a7dcdc99fa24985.setContent(html_292732845b810bbf1d63ae5f68950410);
+            
+        
+
+        circle_marker_54e2dbb5d094c4e3c46f3720502aa6c3.bindPopup(popup_012c60fbe039cebd1a7dcdc99fa24985)
+        ;
+
+        
+    
+    
+            circle_marker_54e2dbb5d094c4e3c46f3720502aa6c3.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_01c87e264ad5e2d96276fe738328bd50 = L.circleMarker(
+                [12.9987197, 77.5338278],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_f7758115841e12478715193648be5ac6 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_bc4d3f049b2d624f4083fd321c542f8f = $(`<div id="html_bc4d3f049b2d624f4083fd321c542f8f" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>airtel</b><br>                 📶 Network: <b>Unknown</b><br>                 🌍 State: <b>Karnataka</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_f7758115841e12478715193648be5ac6.setContent(html_bc4d3f049b2d624f4083fd321c542f8f);
+            
+        
+
+        circle_marker_01c87e264ad5e2d96276fe738328bd50.bindPopup(popup_f7758115841e12478715193648be5ac6)
+        ;
+
+        
+    
+    
+            circle_marker_01c87e264ad5e2d96276fe738328bd50.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0a965ec1681b57a7852183012cc5cdc9 = L.circleMarker(
+                [26.17769581, 91.77236013],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_1bbe4e2ec007b6732b778992168f543f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_01707dd926bbdcb41e718cd50a14da8c = $(`<div id="html_01707dd926bbdcb41e718cd50a14da8c" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Assam</b><br>                 ⭐ Rating: <b>4</b>               </div></div>`)[0];
+                popup_1bbe4e2ec007b6732b778992168f543f.setContent(html_01707dd926bbdcb41e718cd50a14da8c);
+            
+        
+
+        circle_marker_0a965ec1681b57a7852183012cc5cdc9.bindPopup(popup_1bbe4e2ec007b6732b778992168f543f)
+        ;
+
+        
+    
+    
+            circle_marker_0a965ec1681b57a7852183012cc5cdc9.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ff657e0a272a100bd61c5f444ccbb977 = L.circleMarker(
+                [28.63506833, 77.28601667],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_f4cdbe9800c3907a05e2b50f597c4fd9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ca6c20f1f7ee8fe318c5004c06206f8c = $(`<div id="html_ca6c20f1f7ee8fe318c5004c06206f8c" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>NCT</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_f4cdbe9800c3907a05e2b50f597c4fd9.setContent(html_ca6c20f1f7ee8fe318c5004c06206f8c);
+            
+        
+
+        circle_marker_ff657e0a272a100bd61c5f444ccbb977.bindPopup(popup_f4cdbe9800c3907a05e2b50f597c4fd9)
+        ;
+
+        
+    
+    
+            circle_marker_ff657e0a272a100bd61c5f444ccbb977.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_90d87355d2619e4a035ced8183bf44e3 = L.circleMarker(
+                [12.9721261, 77.548479],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_3a027c32b14cdba7dd5ebaa49874c772 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a404b48c05779aee4925de14c2019643 = $(`<div id="html_a404b48c05779aee4925de14c2019643" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>airtel</b><br>                 📶 Network: <b>Unknown</b><br>                 🌍 State: <b>Karnataka</b><br>                 ⭐ Rating: <b>3</b>               </div></div>`)[0];
+                popup_3a027c32b14cdba7dd5ebaa49874c772.setContent(html_a404b48c05779aee4925de14c2019643);
+            
+        
+
+        circle_marker_90d87355d2619e4a035ced8183bf44e3.bindPopup(popup_3a027c32b14cdba7dd5ebaa49874c772)
+        ;
+
+        
+    
+    
+            circle_marker_90d87355d2619e4a035ced8183bf44e3.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9b3b00772b885e6b337899a80be24e50 = L.circleMarker(
+                [30.84175408, 75.93218063],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_76be4db1d28122ad800330a82f47d31f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7a778faf1f42b5f6c43dbb78640dbd52 = $(`<div id="html_7a778faf1f42b5f6c43dbb78640dbd52" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Punjab</b><br>                 ⭐ Rating: <b>5</b>               </div></div>`)[0];
+                popup_76be4db1d28122ad800330a82f47d31f.setContent(html_7a778faf1f42b5f6c43dbb78640dbd52);
+            
+        
+
+        circle_marker_9b3b00772b885e6b337899a80be24e50.bindPopup(popup_76be4db1d28122ad800330a82f47d31f)
+        ;
+
+        
+    
+    
+            circle_marker_9b3b00772b885e6b337899a80be24e50.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dbb8c5929d148d37c814d882e5748ca4 = L.circleMarker(
+                [17.8176391, 76.2698162],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1.5}
+            ).addTo(map_366c6e4ec6a3a95381c426a4e5517f82);
+        
+    
+        var popup_0be224d190024f604bcdff09b8b53574 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c90037eda32e7e13877098650e2f5036 = $(`<div id="html_c90037eda32e7e13877098650e2f5036" style="width: 100.0%; height: 100.0%;">               <div style='font-family:Inter,sans-serif;font-size:13px;min-width:160px'>                 <b style='color:#2ecc71'>✅ Connected</b><br>                 🏢 Operator: <b>jio</b><br>                 📶 Network: <b>4G</b><br>                 🌍 State: <b>Maharashtra</b><br>                 ⭐ Rating: <b>1</b>               </div></div>`)[0];
+                popup_0be224d190024f604bcdff09b8b53574.setContent(html_c90037eda32e7e13877098650e2f5036);
+            
+        
+
+        circle_marker_dbb8c5929d148d37c814d882e5748ca4.bindPopup(popup_0be224d190024f604bcdff09b8b53574)
+        ;
+
+        
+    
+    
+            circle_marker_dbb8c5929d148d37c814d882e5748ca4.bindTooltip(
+                `<div>
+                     ✅ Connected
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

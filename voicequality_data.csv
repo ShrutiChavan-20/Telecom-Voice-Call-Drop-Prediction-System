@@ -1,0 +1,192 @@
+inout_travelling,operator,network_type,rating,calldrop_category,latitude,longitude,state_name,month,year
+Travelling,jio,4G,3,Poor Voice Quality,19.2422731,72.859278,Maharashtra,9,2017
+Indoor,jio,4G,3,Satisfactory,27.65794281,94.7122816,Assam,9,2017
+Outdoor,bsnl,3G,4,Satisfactory,13.08241874,80.20879819,Tamil Nadu,9,2017
+Indoor,NA,Unknown,2,Call Dropped,15.4729746,73.8098152,Goa,9,2017
+Indoor,jio,4G,5,Satisfactory,18.6531147,73.8354737,Maharashtra,9,2017
+Outdoor,NA,4G,4,Satisfactory,19.8152591,74.2353569,Maharashtra,9,2017
+Outdoor,NA,4G,3,Call Dropped,19.86213667,74.283695,Maharashtra,9,2017
+Indoor,jio,4G,4,Satisfactory,-1.0,-1.0,NA,9,2017
+Indoor,jio,4G,2,Poor Voice Quality,-1.0,-1.0,NA,9,2017
+Outdoor,jio,4G,4,Satisfactory,-1.0,-1.0,NA,9,2017
+Indoor,airtel,4G,3,Poor Voice Quality,19.1591605,73.0265096,Maharashtra,9,2017
+Outdoor,jio,4G,3,Poor Voice Quality,22.8637983,88.4076611,West Bengal,9,2017
+Travelling,NA,3G,5,Satisfactory,19.12296918,72.91275442,Maharashtra,9,2017
+Indoor,bsnl,3G,5,Satisfactory,-1.0,-1.0,NA,9,2017
+Indoor,jio,4G,5,Satisfactory,23.2681658,77.46545022,Madhya Pradesh,9,2017
+Outdoor,jio,4G,4,Satisfactory,23.22761186,77.4307893,Madhya Pradesh,9,2017
+Indoor,jio,4G,4,Satisfactory,23.08185249,72.56386302,Gujarat,9,2017
+Indoor,bsnl,2G,2,Poor Voice Quality,-1.0,-1.0,NA,9,2017
+Indoor,NA,4G,4,Satisfactory,30.34629914,76.8678174,Haryana,9,2017
+Travelling,vi,2G,2,Poor Voice Quality,21.19370165,72.8167715,Gujarat,9,2017
+Indoor,NA,Unknown,3,Poor Voice Quality,18.55873324,73.93911455,Maharashtra,9,2017
+Travelling,airtel,Unknown,3,Poor Voice Quality,12.9721261,77.548479,Karnataka,9,2017
+Travelling,vi,3G,5,Satisfactory,21.24826069,72.89066714,Gujarat,9,2017
+Outdoor,vi,3G,5,Satisfactory,21.21784801,72.85522703,Gujarat,9,2017
+Indoor,airtel,Unknown,5,Satisfactory,17.3291946,78.5935848,Telangana,9,2017
+Travelling,airtel,Unknown,5,Satisfactory,17.458105,78.4998779,Telangana,9,2017
+Indoor,airtel,4G,5,Satisfactory,-1.0,-1.0,NA,9,2017
+Indoor,airtel,3G,2,Call Dropped,-1.0,-1.0,NA,9,2017
+Indoor,jio,4G,5,Satisfactory,12.9056256,77.59401796,Karnataka,9,2017
+Travelling,jio,4G,2,Poor Voice Quality,22.5508535,88.40313185,West Bengal,9,2017
+Indoor,NA,Unknown,2,Poor Voice Quality,29.1481522,75.7398641,Haryana,9,2017
+Outdoor,jio,4G,3,Satisfactory,15.80116188,80.32915555,Andhra Pradesh,9,2017
+Indoor,vi,3G,2,Poor Voice Quality,28.230319,77.86694958,Uttar Pradesh,9,2017
+Indoor,jio,4G,5,Satisfactory,26.0125442,90.0007596,Assam,9,2017
+Outdoor,airtel,3G,3,Satisfactory,27.40338335,75.45626661,Rajasthan,9,2017
+Indoor,jio,4G,5,Satisfactory,22.7902214,86.235772,Jharkhand,9,2017
+Outdoor,vi,Unknown,2,Poor Voice Quality,21.267741,72.8483848,Gujarat,9,2017
+Indoor,vi,3G,1,Call Dropped,21.2301266,72.838797,Gujarat,9,2017
+Indoor,NA,Unknown,4,Satisfactory,19.0338411,72.9259668,Maharashtra,9,2017
+Travelling,jio,4G,4,Satisfactory,22.36557756,69.84371666,Gujarat,9,2017
+Indoor,jio,4G,2,Call Dropped,-1.0,-1.0,NA,9,2017
+Indoor,jio,4G,4,Satisfactory,28.5483758,77.1821483,NCT,9,2017
+Travelling,jio,4G,4,Satisfactory,22.85764766,88.42978108,West Bengal,9,2017
+Indoor,airtel,Unknown,5,Satisfactory,12.91757634,77.62202364,Karnataka,9,2017
+Indoor,vi,Unknown,3,Satisfactory,-1.0,-1.0,NA,9,2017
+Indoor,jio,4G,5,Satisfactory,30.84175408,75.93218063,Punjab,9,2017
+Indoor,NA,3G,5,Satisfactory,23.0817424,72.5728108,Gujarat,9,2017
+Indoor,jio,4G,5,Satisfactory,28.63506833,77.28601667,NCT,9,2017
+Indoor,jio,4G,4,Satisfactory,11.15847058,77.30205315,Tamil Nadu,9,2017
+Indoor,bsnl,3G,4,Satisfactory,-1.0,-1.0,NA,9,2017
+Indoor,airtel,4G,4,Satisfactory,28.6394603,77.36019756,Uttar Pradesh,9,2017
+Travelling,airtel,3G,5,Satisfactory,12.979165,77.58504167,Karnataka,9,2017
+Indoor,jio,4G,3,Satisfactory,-1.0,-1.0,NA,9,2017
+Outdoor,NA,Unknown,3,Satisfactory,-1.0,-1.0,NA,9,2017
+Indoor,jio,4G,1,Call Dropped,-1.0,-1.0,NA,9,2017
+Indoor,airtel,3G,3,Poor Voice Quality,26.75032317,79.21346317,Uttar Pradesh,9,2017
+Indoor,vi,4G,5,Satisfactory,-1.0,-1.0,NA,9,2017
+Indoor,NA,Unknown,1,Poor Voice Quality,18.51024167,73.91583667,Maharashtra,9,2017
+Indoor,NA,Unknown,1,Call Dropped,18.50402,73.918615,Maharashtra,9,2017
+Indoor,NA,3G,4,Satisfactory,-1.0,-1.0,NA,9,2017
+Outdoor,NA,3G,4,Satisfactory,-1.0,-1.0,NA,9,2017
+Indoor,jio,4G,5,Satisfactory,21.463783,80.1996721,Maharashtra,9,2017
+Indoor,bsnl,Unknown,4,Satisfactory,-1.0,-1.0,NA,9,2017
+Indoor,NA,3G,4,Satisfactory,12.94662698,80.21109825,Tamil Nadu,9,2017
+Indoor,jio,4G,5,Satisfactory,26.16294635,91.55937618,Assam,9,2017
+Indoor,NA,Unknown,4,Satisfactory,-1.0,-1.0,NA,9,2017
+Indoor,airtel,4G,2,Poor Voice Quality,11.0400976,76.9289493,Tamil Nadu,9,2017
+Outdoor,bsnl,Unknown,1,Poor Voice Quality,-1.0,-1.0,NA,9,2017
+Travelling,jio,4G,4,Satisfactory,26.86131892,80.95575767,Uttar Pradesh,9,2017
+Outdoor,jio,4G,5,Satisfactory,26.8439155,80.9449751,Uttar Pradesh,9,2017
+Indoor,jio,4G,5,Satisfactory,26.87076753,80.95844579,Uttar Pradesh,9,2017
+Travelling,jio,4G,5,Satisfactory,26.87081335,80.96263921,Uttar Pradesh,9,2017
+Indoor,NA,Unknown,5,Satisfactory,-1.0,-1.0,NA,9,2017
+Indoor,vi,4G,5,Satisfactory,28.4583986,77.0381746,Haryana,9,2017
+Indoor,airtel,3G,2,Poor Voice Quality,28.6199021,77.0674193,NCT,9,2017
+Indoor,airtel,Unknown,5,Satisfactory,12.92230661,77.66813067,Karnataka,9,2017
+Indoor,vi,3G,1,Poor Voice Quality,23.2629749,88.1451504,West Bengal,9,2017
+Outdoor,vi,Unknown,2,Poor Voice Quality,-1.0,-1.0,NA,9,2017
+Outdoor,NA,4G,5,Satisfactory,11.45714468,77.42841071,Tamil Nadu,9,2017
+Indoor,jio,4G,5,Satisfactory,-1.0,-1.0,NA,9,2017
+Travelling,vi,Unknown,1,Poor Voice Quality,28.66033053,77.21497009,NCT,9,2017
+Indoor,NA,4G,4,Satisfactory,13.15890648,78.62544599,Andhra Pradesh,9,2017
+Indoor,jio,4G,5,Satisfactory,30.8268466,76.5739279,Punjab,9,2017
+Outdoor,airtel,4G,1,Poor Voice Quality,-1.0,-1.0,NA,9,2017
+Indoor,jio,4G,5,Satisfactory,31.536005,75.89488833,Punjab,9,2017
+Indoor,jio,4G,1,Poor Voice Quality,22.5167489,88.4019004,West Bengal,9,2017
+Indoor,airtel,4G,5,Satisfactory,11.9305197,76.9461294,Karnataka,9,2017
+Indoor,vi,4G,4,Satisfactory,22.6533351,87.7356775,West Bengal,9,2017
+Indoor,airtel,Unknown,4,Satisfactory,28.13322107,77.33530625,Haryana,9,2017
+Travelling,vi,3G,3,Satisfactory,25.4302957,78.55330699,Uttar Pradesh,9,2017
+Indoor,vi,3G,2,Poor Voice Quality,25.4302957,78.55330699,Uttar Pradesh,9,2017
+Indoor,vi,3G,1,Poor Voice Quality,25.4302957,78.55330699,Uttar Pradesh,9,2017
+Indoor,NA,4G,5,Satisfactory,18.5037467,73.9260507,Maharashtra,9,2017
+Travelling,NA,3G,3,Satisfactory,10.65578898,77.00546731,Tamil Nadu,9,2017
+Indoor,airtel,4G,5,Satisfactory,12.9776842,80.2644632,Tamil Nadu,9,2017
+Indoor,vi,Unknown,5,Satisfactory,12.9797873,80.2040148,Tamil Nadu,9,2017
+Outdoor,bsnl,2G,5,Satisfactory,-1.0,-1.0,NA,9,2017
+Indoor,bsnl,Unknown,5,Satisfactory,-1.0,-1.0,NA,9,2017
+Indoor,jio,4G,3,Satisfactory,11.46987333,78.18347167,Tamil Nadu,9,2017
+Indoor,vi,3G,4,Satisfactory,-1.0,-1.0,NA,9,2017
+Travelling,jio,4G,1,Call Dropped,19.12647224,72.83875179,Maharashtra,9,2017
+Indoor,airtel,Unknown,5,Satisfactory,12.9987197,77.5338278,Karnataka,9,2017
+Indoor,bsnl,2G,5,Satisfactory,-1.0,-1.0,NA,9,2017
+Indoor,NA,2G,4,Satisfactory,-1.0,-1.0,NA,9,2017
+Outdoor,NA,2G,4,Satisfactory,-1.0,-1.0,NA,9,2017
+Travelling,NA,4G,2,Poor Voice Quality,18.994935,72.82580333,Maharashtra,9,2017
+Outdoor,aircel,2G,1,Poor Voice Quality,-1.0,-1.0,NA,9,2017
+Outdoor,jio,4G,3,Satisfactory,-1.0,-1.0,NA,9,2017
+Indoor,bsnl,Unknown,3,Satisfactory,26.215385,81.25735833,Uttar Pradesh,9,2017
+Indoor,jio,4G,1,Poor Voice Quality,-1.0,-1.0,NA,9,2017
+Outdoor,NA,3G,1,Poor Voice Quality,30.06436,80.24241667,Uttarakhand,9,2017
+Outdoor,vi,2G,4,Satisfactory,23.46136,88.26982167,West Bengal,9,2017
+Outdoor,vi,3G,5,Satisfactory,21.12582035,73.11727766,Gujarat,9,2017
+Travelling,vi,4G,1,Poor Voice Quality,28.4947105,77.0886429,Haryana,9,2017
+Indoor,NA,Unknown,5,Satisfactory,18.05151326,79.52921147,Telangana,9,2017
+Indoor,vi,3G,3,Poor Voice Quality,28.6797722,77.198298,NCT,9,2017
+Indoor,airtel,Unknown,3,Poor Voice Quality,26.50865596,80.22914464,Uttar Pradesh,9,2017
+Travelling,NA,2G,4,Satisfactory,29.02616386,79.47969381,Uttarakhand,9,2017
+Indoor,jio,4G,1,Poor Voice Quality,26.8547159,75.7667077,Rajasthan,9,2017
+Indoor,vi,2G,1,Poor Voice Quality,-1.0,-1.0,NA,9,2017
+Outdoor,jio,4G,3,Poor Voice Quality,20.8227199,85.2838769,Odisha,9,2017
+Indoor,vi,3G,2,Poor Voice Quality,20.51709596,72.95118069,Gujarat,9,2017
+Indoor,jio,4G,1,Poor Voice Quality,28.58828072,77.09309638,NCT,9,2017
+Indoor,airtel,4G,5,Satisfactory,23.050752,72.5263491,Gujarat,9,2017
+Indoor,airtel,4G,4,Satisfactory,12.972256,79.1584138,Tamil Nadu,9,2017
+Indoor,reliance,Unknown,4,Satisfactory,28.62741833,77.07571667,NCT,9,2017
+Outdoor,NA,4G,1,Poor Voice Quality,-1.0,-1.0,NA,7,2017
+Indoor,bsnl,3G,3,Satisfactory,13.56108262,78.51179308,Andhra Pradesh,7,2017
+Indoor,jio,4G,5,Satisfactory,12.9970391,77.6269314,Karnataka,7,2017
+Indoor,jio,4G,1,Call Dropped,12.92287167,77.63601333,Karnataka,7,2017
+Indoor,airtel,3G,3,Satisfactory,30.71436333,76.851825,Chandigarh,7,2017
+Outdoor,NA,2G,4,Satisfactory,-1.0,-1.0,NA,7,2017
+Indoor,vi,Unknown,4,Satisfactory,-1.0,-1.0,NA,7,2017
+Indoor,jio,4G,1,Call Dropped,12.922655,77.63304333,Karnataka,7,2017
+Indoor,jio,4G,2,Poor Voice Quality,12.9678432,77.5327981,Karnataka,7,2017
+Outdoor,hutch,Unknown,3,Satisfactory,-1.0,-1.0,NA,9,2017
+Outdoor,NA,3G,2,Poor Voice Quality,8.350655965,77.13563191,Tamil Nadu,9,2017
+Outdoor,NA,2G,3,Satisfactory,8.350655965,77.13563191,Tamil Nadu,9,2017
+Indoor,NA,3G,2,Poor Voice Quality,8.345633706,77.12075374,Kerala,9,2017
+Outdoor,NA,3G,1,Call Dropped,-1.0,-1.0,NA,9,2017
+Outdoor,NA,Unknown,4,Satisfactory,-1.0,-1.0,NA,9,2017
+Indoor,jio,4G,5,Satisfactory,28.59588833,77.32309833,Uttar Pradesh,9,2017
+Indoor,jio,4G,5,Satisfactory,22.50226512,88.38407835,West Bengal,9,2017
+Indoor,vi,Unknown,1,Poor Voice Quality,28.5904982,77.3285365,Uttar Pradesh,9,2017
+Indoor,vi,2G,2,Call Dropped,21.23715512,72.90832445,Gujarat,9,2017
+Indoor,vi,3G,5,Satisfactory,-1.0,-1.0,NA,9,2017
+Indoor,vi,2G,5,Satisfactory,-1.0,-1.0,NA,9,2017
+Indoor,NA,3G,4,Satisfactory,23.2375967,77.435405,Madhya Pradesh,9,2017
+Indoor,NA,3G,3,Poor Voice Quality,12.92262172,77.68333441,Karnataka,9,2017
+Outdoor,NA,Unknown,3,Poor Voice Quality,-1.0,-1.0,NA,9,2017
+Indoor,NA,3G,1,Poor Voice Quality,-1.0,-1.0,NA,9,2017
+Indoor,NA,Unknown,2,Poor Voice Quality,-1.0,-1.0,NA,9,2017
+Indoor,vi,3G,3,Poor Voice Quality,-1.0,-1.0,NA,9,2017
+Indoor,jio,4G,4,Satisfactory,26.17769581,91.77236013,Assam,9,2017
+Indoor,bsnl,4G,5,Satisfactory,26.17768802,91.7721757,Assam,9,2017
+Indoor,NA,3G,1,Call Dropped,19.40133517,72.85494288,Maharashtra,9,2017
+Indoor,NA,4G,5,Satisfactory,-1.0,-1.0,NA,9,2017
+Indoor,jio,4G,3,Poor Voice Quality,22.5540087,75.7527638,Madhya Pradesh,9,2017
+Outdoor,bsnl,2G,4,Satisfactory,28.9852042,77.7493145,Uttar Pradesh,9,2017
+Indoor,bsnl,3G,3,Satisfactory,13.048325,80.2309441,Tamil Nadu,9,2017
+Outdoor,airtel,3G,5,Satisfactory,-1.0,-1.0,NA,9,2017
+Outdoor,jio,4G,1,Poor Voice Quality,-1.0,-1.0,NA,9,2017
+Indoor,jio,4G,2,Poor Voice Quality,17.4220006,78.3365837,Telangana,9,2017
+Indoor,jio,4G,4,Satisfactory,21.14855499,79.06932817,Maharashtra,9,2017
+Indoor,airtel,Unknown,5,Satisfactory,-1.0,-1.0,NA,9,2017
+Indoor,vi,3G,3,Call Dropped,12.91069688,77.61459293,Karnataka,9,2017
+Outdoor,vi,Unknown,2,Poor Voice Quality,21.19363606,72.86095327,Gujarat,9,2017
+Indoor,bsnl,Unknown,1,Poor Voice Quality,-1.0,-1.0,NA,9,2017
+Indoor,airtel,4G,5,Satisfactory,23.050872,72.52619724,Gujarat,9,2017
+Indoor,jio,4G,1,Poor Voice Quality,18.0050788,76.0721043,Maharashtra,9,2017
+Indoor,jio,4G,1,Poor Voice Quality,17.8176391,76.2698162,Maharashtra,9,2017
+Indoor,jio,4G,1,Poor Voice Quality,17.8220126,76.2651098,Maharashtra,9,2017
+Indoor,NA,3G,5,Satisfactory,28.7260108,77.2204752,Uttar Pradesh,7,2017
+Indoor,airtel,3G,3,Poor Voice Quality,10.00531715,76.31253,Kerala,7,2017
+Indoor,mtnl,4G,5,Satisfactory,-1.0,-1.0,NA,7,2017
+Outdoor,mtnl,4G,5,Satisfactory,-1.0,-1.0,NA,7,2017
+Indoor,NA,3G,4,Satisfactory,18.550808,73.89135,Maharashtra,7,2017
+Indoor,bsnl,3G,3,Satisfactory,13.5617112,78.5117784,Andhra Pradesh,7,2017
+Indoor,jio,4G,5,Satisfactory,-1.0,-1.0,NA,7,2017
+Indoor,bsnl,4G,4,Satisfactory,21.75669747,72.16273509,Gujarat,7,2017
+Indoor,jio,4G,5,Satisfactory,13.2807594,80.4240784,Tamil Nadu,7,2017
+Indoor,vi,Unknown,1,Call Dropped,-1.0,-1.0,NA,7,2017
+Indoor,vi,Unknown,5,Satisfactory,-1.0,-1.0,NA,7,2017
+Indoor,tata docomo,Unknown,1,Poor Voice Quality,-1.0,-1.0,NA,7,2017
+Outdoor,jio,4G,1,Poor Voice Quality,28.7056746,77.1231821,NCT,7,2017
+Indoor,vi,4G,1,Poor Voice Quality,28.7056746,77.1231821,NCT,7,2017
+Indoor,vi,4G,1,Poor Voice Quality,28.69170333,77.14740258,NCT,7,2017
+Indoor,bsnl,2G,5,Satisfactory,24.73315836,92.78796888,Assam,7,2017
+Outdoor,NA,2G,3,Satisfactory,-1.0,-1.0,NA,7,2017
+Outdoor,NA,Unknown,2,Poor Voice Quality,-1.0,-1.0,NA,7,2017
+Indoor,jio,4G,5,Satisfactory,14.680278,77.6011952,Andhra Pradesh,7,2017
