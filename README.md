@@ -243,37 +243,6 @@ The model performance was evaluated using:
 - Plotly Documentation
 - data.gov.in Telecom Complaint Dataset
 
----
-
-## 👩‍💻 Author
-
-**Shruti Chavan**
-
-📧 Email: shrutichavan5050@gmail.com
-
-💼 LinkedIn: *(Add Link)*
-
-💻 GitHub: *(Add Link)*
-
----
-
-⭐ If you found this project helpful, consider giving it a Star!
-💡 To make your GitHub repository stand out, include these folders:
-📂 assets/
-    dashboard.png
-    prediction.png
-    feature_importance.png
-    confusion_matrix.png
-    coverage_map.png
-    architecture.png
-
-📂 dataset/
-    telecom_data.csv
-
-📂 model/
-    random_forest.pkl
-
-📂 notebooks/
     EDA.ipynb
     Model_Training.ipynb
 
