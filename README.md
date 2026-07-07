@@ -243,9 +243,4 @@ The model performance was evaluated using:
 - Plotly Documentation
 - data.gov.in Telecom Complaint Dataset
 
-    EDA.ipynb
-    Model_Training.ipynb
-
-README.md
-requirements.txt
-app.py
+   
