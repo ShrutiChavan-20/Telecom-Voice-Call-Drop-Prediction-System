@@ -182,7 +182,8 @@ The model performance was evaluated using:
 
 ### Telecom Dashboard
 
-![Uploading image.png…]()
+(<img width="378" height="241" alt="image" src="https://github.com/user-attachments/assets/19172083-2a6a-41f4-bb36-7cabecbc5996" />
+)
 
 
 ---
