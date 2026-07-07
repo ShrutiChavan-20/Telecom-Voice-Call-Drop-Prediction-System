@@ -182,31 +182,31 @@ The model performance was evaluated using:
 
 ### Telecom Dashboard
 
-(<img width="450" height="350" alt="image" src="https://github.com/user-attachments/assets/19172083-2a6a-41f4-bb36-7cabecbc5996" />
-)
+<img width="450" height="350" alt="image" src="https://github.com/user-attachments/assets/19172083-2a6a-41f4-bb36-7cabecbc5996" />
+
 
 
 ---
 
 ### Prediction Result
 
-(<img width="358" height="241" alt="image" src="https://github.com/user-attachments/assets/41ec4274-e9f4-4270-873b-5c7a82c6c1ee" />
-)
+<img width="358" height="241" alt="image" src="https://github.com/user-attachments/assets/41ec4274-e9f4-4270-873b-5c7a82c6c1ee" />
+
 
 ---
 
 ### Network Analytics
 
-(<img width="691" height="212" alt="image" src="https://github.com/user-attachments/assets/3898ea61-b009-4240-97fc-9c71f4a8faa3" />
+<img width="635" height="231" alt="image" src="https://github.com/user-attachments/assets/3898ea61-b009-4240-97fc-9c71f4a8faa3" />
 <img width="635" height="231" alt="image" src="https://github.com/user-attachments/assets/f3b47012-0863-43c8-93f2-1ff1205d3985" />
-)
+
 
 ---
 
 ### Live Coverage Map
 
-(<img width="633" height="245" alt="image" src="https://github.com/user-attachments/assets/5c14ca52-3ff9-4ab6-86a6-2ffc6cdb92f4" />
-)
+<img width="633" height="245" alt="image" src="https://github.com/user-attachments/assets/5c14ca52-3ff9-4ab6-86a6-2ffc6cdb92f4" />
+
 
 ---
 
